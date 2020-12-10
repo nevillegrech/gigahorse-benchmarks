@@ -4,6 +4,14 @@ A collection of smart contracts in source and binary format, labelled with respe
 
 Some of the contracts in this dataset have been derived from smartbugs, which in turn have been publically available and hence retain their original licences.
 
+This benchmark repo is organized as follows:
+| Path | Description |
+| --- | --- |
+| [invulnerable-bytecode](https://github.com/nevillegrech/gigahorse-benchmarks/tree/master/invulnerable-bytecode) | Contains a collection of popular compiled contract without known vulnerabilities |
+| [vulnerable-bytecode](https://github.com/nevillegrech/gigahorse-benchmarks/tree/master/vulnerable-bytecode) | Contains a collection of compiled contracts with labelled vulnerabilities |
+| [vulnerable-source](https://github.com/nevillegrech/gigahorse-benchmarks/tree/master/vulnerable-source) | Contains a collection of sources of contracts with labelled vulnerabilities |
+| [labels.json](https://github.com/nevillegrech/gigahorse-benchmarks/tree/master/labels.json) | Machine-readable labels for all vulnerable contracts |
+
 
 ## Description
 

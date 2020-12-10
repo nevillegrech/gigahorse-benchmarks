@@ -1,4 +1,0 @@
-docker_image:
-  default: smartbugs/solhint
-cmd: solhint -f unix -q
-info: Open source project for linting solidity code. This project provide both security and style guide validations.

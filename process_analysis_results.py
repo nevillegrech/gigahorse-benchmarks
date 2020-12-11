@@ -65,10 +65,10 @@ class GigahorseEvaluator(Evaluator):
 
 class EthaneEvaluator(GigahorseEvaluator):
     mappings = {
-        'Vulnerability_AccessibleSelfdestruct': 'access_control',
-        'Vulnerability_TaintedDelegatecall': 'access_control',
-        'Vulnerability_TaintedSelfdestruct': 'access_control',
-        'Vulnerability_TaintedValueSend': 'access_control',
+        'AccessibleSelfdestruct': 'access_control',
+        'TaintedDelegatecall': 'access_control',
+        'TaintedSelfdestruct': 'access_control',
+        'TaintedValueSend': 'access_control',
         'LoadedDice': 'bad_randomness',
         'Reentrancy': 'reentrancy',
         'UnboundedMassOp': 'denial_of_service',

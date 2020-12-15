@@ -35,13 +35,17 @@ class GigahorseEvaluator(Evaluator):
         results_per_vuln = set()
 
         for label in self.labels:
-            example = label['bytecode-path']
+            example = label['bytecode-path'].split('/')[-1]
             try:
-                program_size = len(open(join(join(BENCHMARKS_DIR, 'vulnerable-bytecode'), example)).read())
+                program_size = len(open(join(BENCHMARKS_DIR, example)).read())
             except IOError:
                 # not found
                 program_size = 0
-            expected_vulnerability_type = None
+            # find vulnerability type
+            try:
+                expected_vulnerability_type = label['vulnerabilities'][0]["category"]
+            except (KeyError, IndexError):
+                expected_vulnerability_type = None
             for v in self.mappings.values():
                 if example.startswith(v):
                     expected_vulnerability_type = v

@@ -1,197 +1,168 @@
 [
     {
         "id": "FibonacciBalance",
-        "source-path": "access_control_FibonacciBalance.sol",
-        "bytecode-path": "access_control_FibonacciBalance.hex",
+        "source-path": "vulnerable-sources/access_control_FibonacciBalance.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_FibonacciBalance.hex",
         "source": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
             {
-                "lines": [
-                    31
-                ],
-                "category": "access_control"
-            },
-            {
-                "lines": [
-                    38
-                ],
+                "contract": "",
+                "lines": [31, 38],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "arbitrary_location_write_simple",
-        "source-path": "access_control_arbitrary_location_write_simple.sol",
-        "bytecode-path": "access_control_arbitrary_location_write_simple.hex",
+        "source-path": "vulnerable-sources/access_control_arbitrary_location_write_simple.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_arbitrary_location_write_simple.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-124#arbitrary-location-write-simplesol",
         "vulnerabilities": [
             {
-                "lines": [
-                    27
-                ],
+                "contract": "",
+                "lines": [27],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "incorrect_constructor_name1",
-        "source-path": "access_control_incorrect_constructor_name1.sol",
-        "bytecode-path": "access_control_incorrect_constructor_name1.hex",
+        "source-path": "vulnerable-sources/access_control_incorrect_constructor_name1.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_incorrect_constructor_name1.hex",
         "source": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/wrong_constructor_name/incorrect_constructor.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    20
-                ],
+                "contract": "",
+                "lines": [20],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "incorrect_constructor_name2",
-        "source-path": "access_control_incorrect_constructor_name2.sol",
-        "bytecode-path": "access_control_incorrect_constructor_name2.hex",
+        "source-path": "vulnerable-sources/access_control_incorrect_constructor_name2.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_incorrect_constructor_name2.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-118#incorrect-constructor-name1sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    18
-                ],
+                "contract": "",
+                "lines": [18],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "incorrect_constructor_name3",
-        "source-path": "access_control_incorrect_constructor_name3.sol",
-        "bytecode-path": "access_control_incorrect_constructor_name3.hex",
+        "source-path": "vulnerable-sources/access_control_incorrect_constructor_name3.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_incorrect_constructor_name3.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-118#incorrect-constructor-name2sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    17
-                ],
+                "contract": "",
+                "lines": [17],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "mapping_write",
-        "source-path": "access_control_mapping_write.sol",
-        "bytecode-path": "access_control_mapping_write.hex",
+        "source-path": "vulnerable-sources/access_control_mapping_write.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_mapping_write.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-124#mapping-writesol",
         "vulnerabilities": [
             {
-                "lines": [
-                    20
-                ],
+                "contract": "",
+                "lines": [20],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "multiowned_vulnerable",
-        "source-path": "access_control_multiowned_vulnerable.sol",
-        "bytecode-path": "access_control_multiowned_vulnerable.hex",
+        "source-path": "vulnerable-sources/access_control_multiowned_vulnerable.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_multiowned_vulnerable.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/solidity/unprotected_critical_functions/multiowned_vulnerable/multiowned_vulnerable.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    38
-                ],
+                "contract": "",
+                "lines": [38],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "mycontract",
-        "source-path": "access_control_mycontract.sol",
-        "bytecode-path": "access_control_mycontract.hex",
+        "source-path": "vulnerable-sources/access_control_mycontract.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_mycontract.hex",
         "source": "https://consensys.github.io/smart-contract-best-practices/recommendations/#avoid-using-txorigin",
         "vulnerabilities": [
             {
-                "lines": [
-                    20
-                ],
+                "contract": "",
+                "lines": [20],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "parity_wallet_bug_1",
-        "source-path": "access_control_parity_wallet_bug_1.sol",
-        "bytecode-path": "access_control_parity_wallet_bug_1.hex",
+        "source-path": "vulnerable-sources/access_control_parity_wallet_bug_1.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_parity_wallet_bug_1.hex",
         "source": "https://github.com/paritytech/parity-ethereum/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol#L216",
         "vulnerabilities": [
             {
-                "lines": [
-                    223
-                ],
-                "category": "access_control"
-            },
-            {
-                "lines": [
-                    437
-                ],
+                "contract": "",
+                "lines": [223, 437],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "parity_wallet_bug_2",
-        "source-path": "access_control_parity_wallet_bug_2.sol",
-        "bytecode-path": "access_control_parity_wallet_bug_2.hex",
+        "source-path": "vulnerable-sources/access_control_parity_wallet_bug_2.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_parity_wallet_bug_2.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-106#walletlibrarysol",
         "vulnerabilities": [
             {
-                "lines": [
-                    226
-                ],
-                "category": "access_control"
-            },
-            {
-                "lines": [
-                    233
-                ],
+                "contract": "",
+                "lines": [226, 233],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "phishable",
-        "source-path": "access_control_phishable.sol",
-        "bytecode-path": "access_control_phishable.hex",
+        "source-path": "vulnerable-sources/access_control_phishable.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_phishable.hex",
         "source": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
             {
-                "lines": [
-                    20
-                ],
+                "contract": "",
+                "lines": [20],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "proxy",
-        "source-path": "access_control_proxy.sol",
-        "bytecode-path": "access_control_proxy.hex",
+        "source-path": "vulnerable-sources/access_control_proxy.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_proxy.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-112#proxysol",
         "vulnerabilities": [
             {
-                "lines": [
-                    19
-                ],
+                "contract": "",
+                "lines": [19],
                 "category": "access_control"
             }
         ]
     },
     {
         "id": "rubixi",
-        "source-path": "access_control_rubixi.sol",
-        "bytecode-path": "access_control_rubixi.hex",
+        "source-path": "vulnerable-sources/access_control_rubixi.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_rubixi.hex",
         "source": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/wrong_constructor_name/Rubixi_source_code/Rubixi.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     23,
                     24
@@ -202,11 +173,12 @@
     },
     {
         "id": "simple_suicide",
-        "source-path": "access_control_simple_suicide.sol",
-        "bytecode-path": "access_control_simple_suicide.hex",
+        "source-path": "vulnerable-sources/access_control_simple_suicide.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_simple_suicide.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/unprotected_critical_functions/simple_suicide.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     12,
                     13
@@ -217,11 +189,12 @@
     },
     {
         "id": "unprotected0",
-        "source-path": "access_control_unprotected0.sol",
-        "bytecode-path": "access_control_unprotected0.hex",
+        "source-path": "vulnerable-sources/access_control_unprotected0.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_unprotected0.hex",
         "source": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/unprotected_function/Unprotected.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     25
                 ],
@@ -231,11 +204,12 @@
     },
     {
         "id": "wallet_02_refund_nosub",
-        "source-path": "access_control_wallet_02_refund_nosub.sol",
-        "bytecode-path": "access_control_wallet_02_refund_nosub.hex",
+        "source-path": "vulnerable-sources/access_control_wallet_02_refund_nosub.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_wallet_02_refund_nosub.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#wallet-02-refund-nosubsol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     36
                 ],
@@ -245,11 +219,12 @@
     },
     {
         "id": "wallet_03_wrong_constructor",
-        "source-path": "access_control_wallet_03_wrong_constructor.sol",
-        "bytecode-path": "access_control_wallet_03_wrong_constructor.hex",
+        "source-path": "vulnerable-sources/access_control_wallet_03_wrong_constructor.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_wallet_03_wrong_constructor.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#wallet-03-wrong-constructorsol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     19,
                     20
@@ -260,11 +235,12 @@
     },
     {
         "id": "wallet_04_confused_sign",
-        "source-path": "access_control_wallet_04_confused_sign.sol",
-        "bytecode-path": "access_control_wallet_04_confused_sign.hex",
+        "source-path": "vulnerable-sources/access_control_wallet_04_confused_sign.sol",
+        "bytecode-path": "vulnerable-bytecode/access_control_wallet_04_confused_sign.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#wallet-04-confused-signsol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     30
                 ],
@@ -274,11 +250,12 @@
     },
     {
         "id": "BECToken",
-        "source-path": "arithmetic_BECToken.sol",
-        "bytecode-path": "arithmetic_BECToken.hex",
+        "source-path": "vulnerable-sources/arithmetic_BECToken.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_BECToken.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101#bectokensol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     264
                 ],
@@ -288,11 +265,12 @@
     },
     {
         "id": "insecure_transfer",
-        "source-path": "arithmetic_insecure_transfer.sol",
-        "bytecode-path": "arithmetic_insecure_transfer.hex",
+        "source-path": "vulnerable-sources/arithmetic_insecure_transfer.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_insecure_transfer.hex",
         "source": "https://consensys.github.io/smart-contract-best-practices/known_attacks/#front-running-aka-transaction-ordering-dependence",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     18
                 ],
@@ -302,11 +280,12 @@
     },
     {
         "id": "integer_overflow_1",
-        "source-path": "arithmetic_integer_overflow_1.sol",
-        "bytecode-path": "arithmetic_integer_overflow_1.hex",
+        "source-path": "vulnerable-sources/arithmetic_integer_overflow_1.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_1.hex",
         "source": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/integer_overflow/integer_overflow_1.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     14
                 ],
@@ -316,11 +295,12 @@
     },
     {
         "id": "integer_overflow_add",
-        "source-path": "arithmetic_integer_overflow_add.sol",
-        "bytecode-path": "arithmetic_integer_overflow_add.hex",
+        "source-path": "vulnerable-sources/arithmetic_integer_overflow_add.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_add.hex",
         "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite/blob/master/benchmarks/integer_overflow_add.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     17
                 ],
@@ -330,11 +310,12 @@
     },
     {
         "id": "integer_overflow_benign_1",
-        "source-path": "arithmetic_integer_overflow_benign_1.sol",
-        "bytecode-path": "arithmetic_integer_overflow_benign_1.hex",
+        "source-path": "vulnerable-sources/arithmetic_integer_overflow_benign_1.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_benign_1.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_benign_1.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     17
                 ],
@@ -344,11 +325,12 @@
     },
     {
         "id": "integer_overflow_mapping_sym_1",
-        "source-path": "arithmetic_integer_overflow_mapping_sym_1.sol",
-        "bytecode-path": "arithmetic_integer_overflow_mapping_sym_1.hex",
+        "source-path": "vulnerable-sources/arithmetic_integer_overflow_mapping_sym_1.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_mapping_sym_1.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_mapping_sym_1.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     16
                 ],
@@ -358,11 +340,12 @@
     },
     {
         "id": "integer_overflow_minimal",
-        "source-path": "arithmetic_integer_overflow_minimal.sol",
-        "bytecode-path": "arithmetic_integer_overflow_minimal.hex",
+        "source-path": "vulnerable-sources/arithmetic_integer_overflow_minimal.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_minimal.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_minimal.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     17
                 ],
@@ -372,11 +355,12 @@
     },
     {
         "id": "integer_overflow_mul",
-        "source-path": "arithmetic_integer_overflow_mul.sol",
-        "bytecode-path": "arithmetic_integer_overflow_mul.hex",
+        "source-path": "vulnerable-sources/arithmetic_integer_overflow_mul.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_mul.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_mul.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     17
                 ],
@@ -386,11 +370,12 @@
     },
     {
         "id": "integer_overflow_multitx_multifunc_feasible",
-        "source-path": "arithmetic_integer_overflow_multitx_multifunc_feasible.sol",
-        "bytecode-path": "arithmetic_integer_overflow_multitx_multifunc_feasible.hex",
+        "source-path": "vulnerable-sources/arithmetic_integer_overflow_multitx_multifunc_feasible.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_multitx_multifunc_feasible.hex",
         "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     25
                 ],
@@ -400,11 +385,12 @@
     },
     {
         "id": "integer_overflow_multitx_onefunc_feasible",
-        "source-path": "arithmetic_integer_overflow_multitx_onefunc_feasible.sol",
-        "bytecode-path": "arithmetic_integer_overflow_multitx_onefunc_feasible.hex",
+        "source-path": "vulnerable-sources/arithmetic_integer_overflow_multitx_onefunc_feasible.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_multitx_onefunc_feasible.hex",
         "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     22
                 ],
@@ -414,11 +400,12 @@
     },
     {
         "id": "overflow_simple_add",
-        "source-path": "arithmetic_overflow_simple_add.sol",
-        "bytecode-path": "arithmetic_overflow_simple_add.hex",
+        "source-path": "vulnerable-sources/arithmetic_overflow_simple_add.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_overflow_simple_add.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101#overflow-simple-addsol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     14
                 ],
@@ -428,229 +415,121 @@
     },
     {
         "id": "overflow_single_tx",
-        "source-path": "arithmetic_overflow_single_tx.sol",
-        "bytecode-path": "arithmetic_overflow_single_tx.hex",
+        "source-path": "vulnerable-sources/arithmetic_overflow_single_tx.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_overflow_single_tx.hex",
         "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
             {
-                "lines": [
-                    18
-                ],
-                "category": "arithmetic"
-            },
-            {
-                "lines": [
-                    24
-                ],
-                "category": "arithmetic"
-            },
-            {
-                "lines": [
-                    30
-                ],
-                "category": "arithmetic"
-            },
-            {
-                "lines": [
-                    36
-                ],
-                "category": "arithmetic"
-            },
-            {
-                "lines": [
-                    42
-                ],
-                "category": "arithmetic"
-            },
-            {
-                "lines": [
-                    48
-                ],
+                "contract": "",
+                "lines": [18, 24, 30, 36, 42, 48],
                 "category": "arithmetic"
             }
         ]
     },
     {
         "id": "timelock",
-        "source-path": "arithmetic_timelock.sol",
-        "bytecode-path": "arithmetic_timelock.hex",
+        "source-path": "vulnerable-sources/arithmetic_timelock.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_timelock.hex",
         "source": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
             {
-                "lines": [
-                    22
-                ],
+                "contract": "",
+                "lines": [22],
                 "category": "arithmetic"
             }
         ]
     },
     {
         "id": "token",
-        "source-path": "arithmetic_token.sol",
-        "bytecode-path": "arithmetic_token.hex",
+        "source-path": "vulnerable-sources/arithmetic_token.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_token.hex",
         "source": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
             {
-                "lines": [
-                    20
-                ],
-                "category": "arithmetic"
-            },
-            {
-                "lines": [
-                    22
-                ],
+                "contract": "",
+                "lines": [20, 22],
                 "category": "arithmetic"
             }
         ]
     },
     {
         "id": "tokensalechallenge",
-        "source-path": "arithmetic_tokensalechallenge.sol",
-        "bytecode-path": "arithmetic_tokensalechallenge.hex",
+        "source-path": "vulnerable-sources/arithmetic_tokensalechallenge.sol",
+        "bytecode-path": "vulnerable-bytecode/arithmetic_tokensalechallenge.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101 // https://capturetheether.com/challenges/math/token-sale/",
         "vulnerabilities": [
             {
-                "lines": [
-                    23
-                ],
-                "category": "arithmetic"
-            },
-            {
-                "lines": [
-                    25
-                ],
-                "category": "arithmetic"
-            },
-            {
-                "lines": [
-                    33
-                ],
+                "contract": "",
+                "lines": [23, 25, 33],
                 "category": "arithmetic"
             }
         ]
     },
     {
         "id": "blackjack",
-        "source-path": "bad_randomness_blackjack.sol",
-        "bytecode-path": "bad_randomness_blackjack.hex",
+        "source-path": "vulnerable-sources/bad_randomness_blackjack.sol",
+        "bytecode-path": "vulnerable-bytecode/bad_randomness_blackjack.hex",
         "source": "https://etherscan.io/address/0xa65d59708838581520511d98fb8b5d1f76a96cad#code",
         "vulnerabilities": [
             {
-                "lines": [
-                    17
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    19
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    21
-                ],
+                "contract": "",
+                "lines": [17, 19, 21],
                 "category": "bad_randomness"
             }
         ]
     },
     {
         "id": "etheraffle",
-        "source-path": "bad_randomness_etheraffle.sol",
-        "bytecode-path": "bad_randomness_etheraffle.hex",
+        "source-path": "vulnerable-sources/bad_randomness_etheraffle.sol",
+        "bytecode-path": "vulnerable-bytecode/bad_randomness_etheraffle.hex",
         "source": "https://etherscan.io/address/0xcC88937F325d1C6B97da0AFDbb4cA542EFA70870#code",
         "vulnerabilities": [
             {
-                "lines": [
-                    49
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    99
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    101
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    103
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    114
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    158
-                ],
+                "contract": "",
+                "lines": [49, 99, 101, 103, 114, 158],
                 "category": "bad_randomness"
             }
         ]
     },
     {
         "id": "guess_the_random_number",
-        "source-path": "bad_randomness_guess_the_random_number.sol",
-        "bytecode-path": "bad_randomness_guess_the_random_number.hex",
+        "source-path": "vulnerable-sources/bad_randomness_guess_the_random_number.sol",
+        "bytecode-path": "vulnerable-bytecode/bad_randomness_guess_the_random_number.hex",
         "source": "https://capturetheether.com/challenges/lotteries/guess-the-random-number/",
         "vulnerabilities": [
             {
-                "lines": [
-                    15
-                ],
+                "contract": "",
+                "lines": [15],
                 "category": "bad_randomness"
             }
         ]
     },
     {
         "id": "lottery",
-        "source-path": "bad_randomness_lottery.sol",
-        "bytecode-path": "bad_randomness_lottery.hex",
+        "source-path": "vulnerable-sources/bad_randomness_lottery.sol",
+        "bytecode-path": "vulnerable-bytecode/bad_randomness_lottery.hex",
         "source": "https://etherscan.io/address/0x80ddae5251047d6ceb29765f38fed1c0013004b7#code",
         "vulnerabilities": [
             {
-                "lines": [
-                    38
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    42
-                ],
+                "contract": "",
+                "lines": [38, 42],
                 "category": "bad_randomness"
             }
         ]
     },
     {
         "id": "lucky_doubler",
-        "source-path": "bad_randomness_lucky_doubler.sol",
-        "bytecode-path": "bad_randomness_lucky_doubler.hex",
+        "source-path": "vulnerable-sources/bad_randomness_lucky_doubler.sol",
+        "bytecode-path": "vulnerable-bytecode/bad_randomness_lucky_doubler.hex",
         "source": "https://etherscan.io/address/0xF767fCA8e65d03fE16D4e38810f5E5376c3372A8#code",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     127,
                     128,
                     129,
-                    130
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
+                    130,
                     132
                 ],
                 "category": "bad_randomness"
@@ -659,135 +538,64 @@
     },
     {
         "id": "old_blockhash",
-        "source-path": "bad_randomness_old_blockhash.sol",
-        "bytecode-path": "bad_randomness_old_blockhash.hex",
+        "source-path": "vulnerable-sources/bad_randomness_old_blockhash.sol",
+        "bytecode-path": "vulnerable-bytecode/bad_randomness_old_blockhash.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/weak_randomness/old_blockhash.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    35
-                ],
+                "contract": "",
+                "lines": [35],
                 "category": "bad_randomness"
             }
         ]
     },
     {
         "id": "smart_billions",
-        "source-path": "bad_randomness_smart_billions.sol",
-        "bytecode-path": "bad_randomness_smart_billions.hex",
+        "source-path": "vulnerable-sources/bad_randomness_smart_billions.sol",
+        "bytecode-path": "vulnerable-bytecode/bad_randomness_smart_billions.hex",
         "source": "https://etherscan.io/address/0x5ace17f87c7391e5792a7683069a8025b83bbd85#code",
         "vulnerabilities": [
             {
-                "lines": [
-                    523
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    560
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    700
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    702
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    704
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    706
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    708
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    710
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    712
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    714
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    716
-                ],
-                "category": "bad_randomness"
-            },
-            {
-                "lines": [
-                    718
-                ],
+                "contract": "",
+                "lines": [523, 560, 700, 702, 704, 706, 708, 710, 712, 714, 716, 718],
                 "category": "bad_randomness"
             }
         ]
     },
     {
         "id": "auction",
-        "source-path": "denial_of_service_auction.sol",
-        "bytecode-path": "denial_of_service_auction.hex",
+        "source-path": "vulnerable-sources/denial_of_service_auction.sol",
+        "bytecode-path": "vulnerable-bytecode/denial_of_service_auction.hex",
         "source": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/denial_of_service/auction.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    23
-                ],
+                "contract": "",
+                "lines": [23],
                 "category": "denial_of_service"
             }
         ]
     },
     {
         "id": "dos_address",
-        "source-path": "denial_of_service_dos_address.sol",
-        "bytecode-path": "denial_of_service_dos_address.hex",
+        "source-path": "vulnerable-sources/denial_of_service_dos_address.sol",
+        "bytecode-path": "vulnerable-bytecode/denial_of_service_dos_address.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/dos_gas_limit/dos_address.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    16,
-                    17,
-                    18
-                ],
+                "contract": "",
+                "lines": [16, 17, 18],
                 "category": "denial_of_service"
             }
         ]
     },
     {
         "id": "dos_number",
-        "source-path": "denial_of_service_dos_number.sol",
-        "bytecode-path": "denial_of_service_dos_number.hex",
+        "source-path": "vulnerable-sources/denial_of_service_dos_number.sol",
+        "bytecode-path": "vulnerable-bytecode/denial_of_service_dos_number.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/dos_gas_limit/dos_number.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     18,
                     19,
@@ -801,11 +609,12 @@
     },
     {
         "id": "dos_simple",
-        "source-path": "denial_of_service_dos_simple.sol",
-        "bytecode-path": "denial_of_service_dos_simple.hex",
+        "source-path": "vulnerable-sources/denial_of_service_dos_simple.sol",
+        "bytecode-path": "vulnerable-bytecode/denial_of_service_dos_simple.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/dos_gas_limit/dos_simple.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     17,
                     18
@@ -816,119 +625,90 @@
     },
     {
         "id": "list_dos",
-        "source-path": "denial_of_service_list_dos.sol",
-        "bytecode-path": "denial_of_service_list_dos.hex",
+        "source-path": "vulnerable-sources/denial_of_service_list_dos.sol",
+        "bytecode-path": "vulnerable-bytecode/denial_of_service_list_dos.hex",
         "source": "https://etherscan.io/address/0xf45717552f12ef7cb65e95476f217ea008167ae3#code",
         "vulnerabilities": [
             {
-                "lines": [
-                    46
-                ],
-                "category": "denial_of_service"
-            },
-            {
-                "lines": [
-                    48
-                ],
+                "contract": "",
+                "lines": [46, 48],
                 "category": "denial_of_service"
             }
         ]
     },
     {
         "id": "send_loop",
-        "source-path": "denial_of_service_send_loop.sol",
-        "bytecode-path": "denial_of_service_send_loop.hex",
+        "source-path": "vulnerable-sources/denial_of_service_send_loop.sol",
+        "bytecode-path": "vulnerable-bytecode/denial_of_service_send_loop.hex",
         "source": "https://consensys.github.io/smart-contract-best-practices/known_attacks/#dos-with-unexpected-revert",
         "vulnerabilities": [
             {
-                "lines": [
-                    24
-                ],
+                "contract": "",
+                "lines": [24],
                 "category": "denial_of_service"
             }
         ]
     },
     {
         "id": "ERC20",
-        "source-path": "front_running_ERC20.sol",
-        "bytecode-path": "front_running_ERC20.hex",
+        "source-path": "vulnerable-sources/front_running_ERC20.sol",
+        "bytecode-path": "vulnerable-bytecode/front_running_ERC20.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/transaction_order_dependence/ERC20.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    110
-                ],
-                "category": "front_running"
-            },
-            {
-                "lines": [
-                    113
-                ],
+                "contract": "",
+                "lines": [110, 113],
                 "category": "front_running"
             }
         ]
     },
     {
         "id": "FindThisHash",
-        "source-path": "front_running_FindThisHash.sol",
-        "bytecode-path": "front_running_FindThisHash.hex",
+        "source-path": "vulnerable-sources/front_running_FindThisHash.sol",
+        "bytecode-path": "vulnerable-bytecode/front_running_FindThisHash.hex",
         "source": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
             {
-                "lines": [
-                    17
-                ],
+                "contract": "",
+                "lines": [17],
                 "category": "front_running"
             }
         ]
     },
     {
         "id": "eth_tx_order_dependence_minimal",
-        "source-path": "front_running_eth_tx_order_dependence_minimal.sol",
-        "bytecode-path": "front_running_eth_tx_order_dependence_minimal.hex",
+        "source-path": "vulnerable-sources/front_running_eth_tx_order_dependence_minimal.sol",
+        "bytecode-path": "vulnerable-bytecode/front_running_eth_tx_order_dependence_minimal.hex",
         "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
             {
-                "lines": [
-                    23
-                ],
-                "category": "front_running"
-            },
-            {
-                "lines": [
-                    31
-                ],
+                "contract": "",
+                "lines": [23,31],
                 "category": "front_running"
             }
         ]
     },
     {
         "id": "odds_and_evens",
-        "source-path": "front_running_odds_and_evens.sol",
-        "bytecode-path": "front_running_odds_and_evens.hex",
+        "source-path": "vulnerable-sources/front_running_odds_and_evens.sol",
+        "bytecode-path": "vulnerable-bytecode/front_running_odds_and_evens.hex",
         "source": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#oddsandevens",
         "vulnerabilities": [
             {
-                "lines": [
-                    25
-                ],
-                "category": "front_running"
-            },
-            {
-                "lines": [
-                    28
-                ],
+                "contract": "",
+                "lines": [25, 28],
                 "category": "front_running"
             }
         ]
     },
     {
         "id": "crypto_roulette",
-        "source-path": "other_crypto_roulette.sol",
-        "bytecode-path": "other_crypto_roulette.hex",
+        "source-path": "vulnerable-sources/other_crypto_roulette.sol",
+        "bytecode-path": "vulnerable-bytecode/other_crypto_roulette.hex",
         "source": "https://github.com/thec00n/smart-contract-honeypots/blob/master/CryptoRoulette.sol",
         "vulnerabilities": [
             {
+                "contract": "",
                 "lines": [
                     40,
                     41,
@@ -940,1430 +720,1181 @@
     },
     {
         "id": "name_registrar",
-        "source-path": "other_name_registrar.sol",
-        "bytecode-path": "other_name_registrar.hex",
+        "source-path": "vulnerable-sources/other_name_registrar.sol",
+        "bytecode-path": "vulnerable-bytecode/other_name_registrar.hex",
         "source": "https://github.com/sigp/solidity-security-blog#storage-example",
         "vulnerabilities": [
             {
-                "lines": [
-                    21
-                ],
+                "contract": "",
+                "lines": [21],
                 "category": "other"
             }
         ]
     },
     {
         "id": "open_address_lottery",
-        "source-path": "other_open_address_lottery.sol",
-        "bytecode-path": "other_open_address_lottery.hex",
+        "source-path": "vulnerable-sources/other_open_address_lottery.sol",
+        "bytecode-path": "vulnerable-bytecode/other_open_address_lottery.hex",
         "source": "https://etherscan.io/address/0x741f1923974464efd0aa70e77800ba5d9ed18902#code",
         "vulnerabilities": [
             {
-                "lines": [
-                    91
-                ],
+                "contract": "",
+                "lines": [91],
                 "category": "other"
             }
         ]
     },
     {
         "id": "0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f",
-        "source-path": "reentrancy_0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol",
-        "bytecode-path": "reentrancy_0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    54
-                ],
+                "contract": "",
+                "lines": [54],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4",
-        "source-path": "reentrancy_0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol",
-        "bytecode-path": "reentrancy_0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    38
-                ],
+                "contract": "",
+                "lines": [38],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1",
-        "source-path": "reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
-        "bytecode-path": "reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    55
-                ],
+                "contract": "",
+                "lines": [55],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x4e73b32ed6c35f570686b89848e5f39f20ecc106",
-        "source-path": "reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol",
-        "bytecode-path": "reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    54
-                ],
+                "contract": "",
+                "lines": [54],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x561eac93c92360949ab1f1403323e6db345cbf31",
-        "source-path": "reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
-        "bytecode-path": "reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    54
-                ],
+                "contract": "",
+                "lines": [54],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839",
-        "source-path": "reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
-        "bytecode-path": "reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    94
-                ],
+                "contract": "",
+                "lines": [94],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x7541b76cb60f4c60af330c208b0623b7f54bf615",
-        "source-path": "reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
-        "bytecode-path": "reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    29
-                ],
+                "contract": "",
+                "lines": [29],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x7a8721a9d64c74da899424c1b52acbf58ddc9782",
-        "source-path": "reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
-        "bytecode-path": "reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    52
-                ],
+                "contract": "",
+                "lines": [52],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3",
-        "source-path": "reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol",
-        "bytecode-path": "reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    29
-                ],
+                "contract": "",
+                "lines": [29],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x8c7777c45481dba411450c228cb692ac3d550344",
-        "source-path": "reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.sol",
-        "bytecode-path": "reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    41
-                ],
+                "contract": "",
+                "lines": [41],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x93c32845fae42c83a70e5f06214c8433665c2ab5",
-        "source-path": "reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
-        "bytecode-path": "reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    29
-                ],
+                "contract": "",
+                "lines": [29],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x941d225236464a25eb18076df7da6a91d0f95e9e",
-        "source-path": "reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
-        "bytecode-path": "reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    44
-                ],
+                "contract": "",
+                "lines": [44],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b",
-        "source-path": "reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
-        "bytecode-path": "reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.hex",
+        "source-path": "vulnerable-sources/reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    63
-                ],
+                "contract": "",
+                "lines": [63],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8",
-        "source-path": "reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
-        "bytecode-path": "reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.hex",
+        "source-path": "vulnerable-sources/reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    54
-                ],
+                "contract": "",
+                "lines": [54],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12",
-        "source-path": "reentrancy_0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
-        "bytecode-path": "reentrancy_0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.hex",
+        "source-path": "vulnerable-sources/reentrancy_0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    40
-                ],
+                "contract": "",
+                "lines": [40],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e",
-        "source-path": "reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
-        "bytecode-path": "reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.hex",
+        "source-path": "vulnerable-sources/reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    38
-                ],
+                "contract": "",
+                "lines": [38],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f",
-        "source-path": "reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
-        "bytecode-path": "reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.hex",
+        "source-path": "vulnerable-sources/reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    41
-                ],
+                "contract": "",
+                "lines": [41],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888",
-        "source-path": "reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
-        "bytecode-path": "reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.hex",
+        "source-path": "vulnerable-sources/reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    63
-                ],
+                "contract": "",
+                "lines": [63],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0xcead721ef5b11f1a7b530171aab69b16c5e66b6e",
-        "source-path": "reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
-        "bytecode-path": "reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.hex",
+        "source-path": "vulnerable-sources/reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    29
-                ],
+                "contract": "",
+                "lines": [29],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "0xf015c35649c82f5467c9c74b7f28ee67665aad68",
-        "source-path": "reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
-        "bytecode-path": "reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.hex",
+        "source-path": "vulnerable-sources/reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    29
-                ],
+                "contract": "",
+                "lines": [29],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "etherbank",
-        "source-path": "reentrancy_etherbank.sol",
-        "bytecode-path": "reentrancy_etherbank.hex",
+        "source-path": "vulnerable-sources/reentrancy_etherbank.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_etherbank.hex",
         "source": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/reentrant.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    21
-                ],
+                "contract": "",
+                "lines": [21],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "etherstore",
-        "source-path": "reentrancy_etherstore.sol",
-        "bytecode-path": "reentrancy_etherstore.hex",
+        "source-path": "vulnerable-sources/reentrancy_etherstore.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_etherstore.hex",
         "source": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
             {
-                "lines": [
-                    27
-                ],
+                "contract": "",
+                "lines": [27],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "modifier_reentrancy",
-        "source-path": "reentrancy_modifier_reentrancy.sol",
-        "bytecode-path": "reentrancy_modifier_reentrancy.hex",
+        "source-path": "vulnerable-sources/reentrancy_modifier_reentrancy.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_modifier_reentrancy.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/reentracy/modifier_reentrancy.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    15
-                ],
+                "contract": "",
+                "lines": [15],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "reentrance",
-        "source-path": "reentrancy_reentrance.sol",
-        "bytecode-path": "reentrancy_reentrance.hex",
+        "source-path": "vulnerable-sources/reentrancy_reentrance.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_reentrance.hex",
         "source": "https://ethernaut.zeppelin.solutions/level/0xf70706db003e94cfe4b5e27ffd891d5c81b39488",
         "vulnerabilities": [
             {
-                "lines": [
-                    24
-                ],
+                "contract": "",
+                "lines": [24],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "reentrancy_bonus",
-        "source-path": "reentrancy_reentrancy_bonus.sol",
-        "bytecode-path": "reentrancy_reentrancy_bonus.hex",
+        "source-path": "vulnerable-sources/reentrancy_reentrancy_bonus.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_bonus.hex",
         "source": "https://consensys.github.io/smart-contract-best-practices/known_attacks/",
         "vulnerabilities": [
             {
-                "lines": [
-                    28
-                ],
+                "contract": "",
+                "lines": [28],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "reentrancy_cross_function",
-        "source-path": "reentrancy_reentrancy_cross_function.sol",
-        "bytecode-path": "reentrancy_reentrancy_cross_function.hex",
+        "source-path": "vulnerable-sources/reentrancy_reentrancy_cross_function.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_cross_function.hex",
         "source": "https://consensys.github.io/smart-contract-best-practices/known_attacks/",
         "vulnerabilities": [
             {
-                "lines": [
-                    24
-                ],
+                "contract": "",
+                "lines": [24],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "reentrancy_dao",
-        "source-path": "reentrancy_reentrancy_dao.sol",
-        "bytecode-path": "reentrancy_reentrancy_dao.hex",
+        "source-path": "vulnerable-sources/reentrancy_reentrancy_dao.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_dao.hex",
         "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
             {
-                "lines": [
-                    18
-                ],
+                "contract": "",
+                "lines": [18],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "reentrancy_insecure",
-        "source-path": "reentrancy_reentrancy_insecure.sol",
-        "bytecode-path": "reentrancy_reentrancy_insecure.hex",
+        "source-path": "vulnerable-sources/reentrancy_reentrancy_insecure.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_insecure.hex",
         "source": "https://consensys.github.io/smart-contract-best-practices/known_attacks/",
         "vulnerabilities": [
             {
-                "lines": [
-                    17
-                ],
+                "contract": "",
+                "lines": [17],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "reentrancy_simple",
-        "source-path": "reentrancy_reentrancy_simple.sol",
-        "bytecode-path": "reentrancy_reentrancy_simple.hex",
+        "source-path": "vulnerable-sources/reentrancy_reentrancy_simple.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_simple.hex",
         "source": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/reentrancy/Reentrancy.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    24
-                ],
+                "contract": "",
+                "lines": [24],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "simple_dao",
-        "source-path": "reentrancy_simple_dao.sol",
-        "bytecode-path": "reentrancy_simple_dao.hex",
+        "source-path": "vulnerable-sources/reentrancy_simple_dao.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_simple_dao.hex",
         "source": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#simpledao",
         "vulnerabilities": [
             {
-                "lines": [
-                    19
-                ],
+                "contract": "",
+                "lines": [19],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "spank_chain_payment",
-        "source-path": "reentrancy_spank_chain_payment.sol",
-        "bytecode-path": "reentrancy_spank_chain_payment.hex",
+        "source-path": "vulnerable-sources/reentrancy_spank_chain_payment.sol",
+        "bytecode-path": "vulnerable-bytecode/reentrancy_spank_chain_payment.hex",
         "source": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/reentrancy/SpankChain_source_code/SpankChain_Payment.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    426
-                ],
-                "category": "reentrancy"
-            },
-            {
-                "lines": [
-                    430
-                ],
+                "contract": "",
+                "lines": [426, 430],
                 "category": "reentrancy"
             }
         ]
     },
     {
         "id": "short_address_example",
-        "source-path": "short_addresses_short_address_example.sol",
-        "bytecode-path": "short_addresses_short_address_example.hex",
+        "source-path": "vulnerable-sources/short_addresses_short_address_example.sol",
+        "bytecode-path": "vulnerable-bytecode/short_addresses_short_address_example.hex",
         "source": "https://ericrafaloff.com/analyzing-the-erc20-short-address-attack/",
         "vulnerabilities": [
             {
-                "lines": [
-                    18
-                ],
+                "contract": "",
+                "lines": [18],
                 "category": "short_addresses"
             }
         ]
     },
     {
         "id": "ether_lotto",
-        "source-path": "time_manipulation_ether_lotto.sol",
-        "bytecode-path": "time_manipulation_ether_lotto.hex",
+        "source-path": "vulnerable-sources/time_manipulation_ether_lotto.sol",
+        "bytecode-path": "vulnerable-bytecode/time_manipulation_ether_lotto.hex",
         "source": "https://etherscan.io/address/0xa11e4ed59dc94e69612f3111942626ed513cb172#code",
         "vulnerabilities": [
             {
-                "lines": [
-                    43
-                ],
+                "contract": "",
+                "lines": [43],
                 "category": "time_manipulation"
             }
         ]
     },
     {
         "id": "governmental_survey",
-        "source-path": "time_manipulation_governmental_survey.sol",
-        "bytecode-path": "time_manipulation_governmental_survey.hex",
+        "source-path": "vulnerable-sources/time_manipulation_governmental_survey.sol",
+        "bytecode-path": "vulnerable-bytecode/time_manipulation_governmental_survey.hex",
         "source": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#governmental",
         "vulnerabilities": [
             {
-                "lines": [
-                    27
-                ],
+                "contract": "",
+                "lines": [27],
                 "category": "time_manipulation"
             }
         ]
     },
     {
         "id": "lottopollo",
-        "source-path": "time_manipulation_lottopollo.sol",
-        "bytecode-path": "time_manipulation_lottopollo.hex",
+        "source-path": "vulnerable-sources/time_manipulation_lottopollo.sol",
+        "bytecode-path": "vulnerable-bytecode/time_manipulation_lottopollo.hex",
         "source": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/timestampdependent.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    13
-                ],
-                "category": "time_manipulation"
-            },
-            {
-                "lines": [
-                    27
-                ],
+                "contract": "",
+                "lines": [13, 27],
                 "category": "time_manipulation"
             }
         ]
     },
     {
         "id": "roulette",
-        "source-path": "time_manipulation_roulette.sol",
-        "bytecode-path": "time_manipulation_roulette.hex",
+        "source-path": "vulnerable-sources/time_manipulation_roulette.sol",
+        "bytecode-path": "vulnerable-bytecode/time_manipulation_roulette.hex",
         "source": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
             {
-                "lines": [
-                    18
-                ],
-                "category": "time_manipulation"
-            },
-            {
-                "lines": [
-                    20
-                ],
+                "contract": "",
+                "lines": [18, 20],
                 "category": "time_manipulation"
             }
         ]
     },
     {
         "id": "timed_crowdsale",
-        "source-path": "time_manipulation_timed_crowdsale.sol",
-        "bytecode-path": "time_manipulation_timed_crowdsale.hex",
+        "source-path": "vulnerable-sources/time_manipulation_timed_crowdsale.sol",
+        "bytecode-path": "vulnerable-bytecode/time_manipulation_timed_crowdsale.hex",
         "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/timestamp_dependence/timed_crowdsale.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    13
-                ],
+                "contract": "",
+                "lines": [13],
                 "category": "time_manipulation"
             }
         ]
     },
     {
         "id": "0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e",
-        "source-path": "unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    201
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    213
-                ],
+                "contract": "",
+                "lines": [201, 213],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9",
-        "source-path": "unchecked_low_level_calls_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    12
-                ],
+                "contract": "",
+                "lines": [12],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x19cf8481ea15427a98ba3cdd6d9e14690011ab10",
-        "source-path": "unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    439
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    465
-                ],
+                "contract": "",
+                "lines": [439, 465],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x2972d548497286d18e92b5fa1f8f9139e5653fd2",
-        "source-path": "unchecked_low_level_calls_0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x2972d548497286d18e92b5fa1f8f9139e5653fd2.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x2972d548497286d18e92b5fa1f8f9139e5653fd2.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    14
-                ],
+                "contract": "",
+                "lines": [14],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x39cfd754c85023648bf003bea2dd498c5612abfa",
-        "source-path": "unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    44
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    97
-                ],
+                "contract": "",
+                "lines": [44, 97],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01",
-        "source-path": "unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    44
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    97
-                ],
+                "contract": "",
+                "lines": [44, 97],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859",
-        "source-path": "unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    29
-                ],
+                "contract": "",
+                "lines": [29],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2",
-        "source-path": "unchecked_low_level_calls_0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    45
-                ],
+                "contract": "",
+                "lines": [45],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x4051334adc52057aca763453820cb0e045076ef3",
-        "source-path": "unchecked_low_level_calls_0x4051334adc52057aca763453820cb0e045076ef3.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x4051334adc52057aca763453820cb0e045076ef3.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x4051334adc52057aca763453820cb0e045076ef3.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x4051334adc52057aca763453820cb0e045076ef3.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    16
-                ],
+                "contract": "",
+                "lines": [16],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c",
-        "source-path": "unchecked_low_level_calls_0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    19
-                ],
+                "contract": "",
+                "lines": [19],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152",
-        "source-path": "unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    17
-                ],
+                "contract": "",
+                "lines": [17],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x524960d55174d912768678d8c606b4d50b79d7b1",
-        "source-path": "unchecked_low_level_calls_0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x524960d55174d912768678d8c606b4d50b79d7b1.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x524960d55174d912768678d8c606b4d50b79d7b1.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    21
-                ],
+                "contract": "",
+                "lines": [21],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x52d2e0f9b01101a59b38a3d05c80b7618aeed984",
-        "source-path": "unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    27
-                ],
+                "contract": "",
+                "lines": [27],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x5aa88d2901c68fda244f1d0584400368d2c8e739",
-        "source-path": "unchecked_low_level_calls_0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x5aa88d2901c68fda244f1d0584400368d2c8e739.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x5aa88d2901c68fda244f1d0584400368d2c8e739.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    29
-                ],
+                "contract": "",
+                "lines": [29],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x610495793564aed0f9c7fc48dc4c7c9151d34fd6",
-        "source-path": "unchecked_low_level_calls_0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    33
-                ],
+                "contract": "",
+                "lines": [33],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839",
-        "source-path": "unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    44
-                ],
+                "contract": "",
+                "lines": [44],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x663e4229142a27f00bafb5d087e1e730648314c3",
-        "source-path": "unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    1152
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    1496
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    2467
-                ],
+                "contract": "",
+                "lines": [1152, 1496, 2467],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4",
-        "source-path": "unchecked_low_level_calls_0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    29
-                ],
+                "contract": "",
+                "lines": [29],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37",
-        "source-path": "unchecked_low_level_calls_0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    45
-                ],
+                "contract": "",
+                "lines": [45],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x7a4349a749e59a5736efb7826ee3496a2dfd5489",
-        "source-path": "unchecked_low_level_calls_0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x7a4349a749e59a5736efb7826ee3496a2dfd5489.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x7a4349a749e59a5736efb7826ee3496a2dfd5489.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    44
-                ],
+                "contract": "",
+                "lines": [44],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x7d09edb07d23acb532a82be3da5c17d9d85806b4",
-        "source-path": "unchecked_low_level_calls_0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x7d09edb07d23acb532a82be3da5c17d9d85806b4.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x7d09edb07d23acb532a82be3da5c17d9d85806b4.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    198
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    210
-                ],
+                "contract": "",
+                "lines": [198, 210],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x806a6bd219f162442d992bdc4ee6eba1f2c5a707",
-        "source-path": "unchecked_low_level_calls_0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    44
-                ],
+                "contract": "",
+                "lines": [44],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8",
-        "source-path": "unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    56
-                ],
+                "contract": "",
+                "lines": [56],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x89c1b3807d4c67df034fffb62f3509561218d30b",
-        "source-path": "unchecked_low_level_calls_0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x89c1b3807d4c67df034fffb62f3509561218d30b.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x89c1b3807d4c67df034fffb62f3509561218d30b.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    162
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    175
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    180
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    192
-                ],
+                "contract": "",
+                "lines": [162,175,180,192],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x8fd1e427396ddb511533cf9abdbebd0a7e08da35",
-        "source-path": "unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    44
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    97
-                ],
+                "contract": "",
+                "lines": [44, 97],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x958a8f594101d2c0485a52319f29b2647f2ebc06",
-        "source-path": "unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    55
-                ],
+                "contract": "",
+                "lines": [55],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0x9d06cbafa865037a01d322d3f4222fa3e04e5488",
-        "source-path": "unchecked_low_level_calls_0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
-        "bytecode-path": "unchecked_low_level_calls_0x9d06cbafa865037a01d322d3f4222fa3e04e5488.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x9d06cbafa865037a01d322d3f4222fa3e04e5488.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    54
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    65
-                ],
+                "contract": "",
+                "lines": [54, 65],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xa1fceeff3acc57d257b917e30c4df661401d6431",
-        "source-path": "unchecked_low_level_calls_0xa1fceeff3acc57d257b917e30c4df661401d6431.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xa1fceeff3acc57d257b917e30c4df661401d6431.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xa1fceeff3acc57d257b917e30c4df661401d6431.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xa1fceeff3acc57d257b917e30c4df661401d6431.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    31
-                ],
+                "lines": [31],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xa46edd6a9a93feec36576ee5048146870ea2c3ae",
-        "source-path": "unchecked_low_level_calls_0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xa46edd6a9a93feec36576ee5048146870ea2c3ae.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xa46edd6a9a93feec36576ee5048146870ea2c3ae.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    16
-                ],
+                "lines": [16],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6",
-        "source-path": "unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    69
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    71
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    73
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    75
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    102
-                ],
+                "contract": "",
+                "lines": [69, 71, 73, 75, 102],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77",
-        "source-path": "unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    14
-                ],
+                "contract": "",
+                "lines": [14],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xb37f18af15bafb869a065b61fc83cfc44ed9cc27",
-        "source-path": "unchecked_low_level_calls_0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    33
-                ],
+                "contract": "",
+                "lines": [33],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xb620cee6b52f96f3c6b253e6eea556aa2d214a99",
-        "source-path": "unchecked_low_level_calls_0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    100
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    106
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    133
-                ],
+                "contract": "",
+                "lines": [100, 106, 133],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7",
-        "source-path": "unchecked_low_level_calls_0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    25
-                ],
+                "contract": "",
+                "lines": [25],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xbaa3de6504690efb064420d89e871c27065cdd52",
-        "source-path": "unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    14
-                ],
+                "contract": "",
+                "lines": [14],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c",
-        "source-path": "unchecked_low_level_calls_0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    14
-                ],
+                "contract": "",
+                "lines": [14],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xd2018bfaa266a9ec0a1a84b061640faa009def76",
-        "source-path": "unchecked_low_level_calls_0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xd2018bfaa266a9ec0a1a84b061640faa009def76.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xd2018bfaa266a9ec0a1a84b061640faa009def76.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    44
-                ],
+                "contract": "",
+                "lines": [44],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xd5967fed03e85d1cce44cab284695b41bc675b5c",
-        "source-path": "unchecked_low_level_calls_0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xd5967fed03e85d1cce44cab284695b41bc675b5c.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xd5967fed03e85d1cce44cab284695b41bc675b5c.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    16
-                ],
+                "contract": "",
+                "lines": [16],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xdb1c55f6926e7d847ddf8678905ad871a68199d2",
-        "source-path": "unchecked_low_level_calls_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    39
-                ],
+                "contract": "",
+                "lines": [39],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xe09b1ab8111c2729a76f16de96bc86a7af837928",
-        "source-path": "unchecked_low_level_calls_0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xe09b1ab8111c2729a76f16de96bc86a7af837928.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xe09b1ab8111c2729a76f16de96bc86a7af837928.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    150
-                ],
+                "contract": "",
+                "lines": [150],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf",
-        "source-path": "unchecked_low_level_calls_0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    44
-                ],
+                "contract": "",
+                "lines": [44],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87",
-        "source-path": "unchecked_low_level_calls_0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    39
-                ],
+                "contract": "",
+                "lines": [39],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xe894d54dca59cb53fe9cbc5155093605c7068220",
-        "source-path": "unchecked_low_level_calls_0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xe894d54dca59cb53fe9cbc5155093605c7068220.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xe894d54dca59cb53fe9cbc5155093605c7068220.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    17
-                ],
+                "contract": "",
+                "lines": [17],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xec329ffc97d75fe03428ae155fc7793431487f63",
-        "source-path": "unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    30
-                ],
+                "contract": "",
+                "lines": [30],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xf2570186500a46986f3139f65afedc2afe4f445d",
-        "source-path": "unchecked_low_level_calls_0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xf2570186500a46986f3139f65afedc2afe4f445d.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xf2570186500a46986f3139f65afedc2afe4f445d.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    18
-                ],
+                "contract": "",
+                "lines": [18],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xf29ebe930a539a60279ace72c707cba851a57707",
-        "source-path": "unchecked_low_level_calls_0xf29ebe930a539a60279ace72c707cba851a57707.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xf29ebe930a539a60279ace72c707cba851a57707.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xf29ebe930a539a60279ace72c707cba851a57707.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    16
-                ],
+                "contract": "",
+                "lines": [16],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e",
-        "source-path": "unchecked_low_level_calls_0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
-        "bytecode-path": "unchecked_low_level_calls_0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.hex",
         "source": "etherscan.io",
         "vulnerabilities": [
             {
-                "lines": [
-                    45
-                ],
+                "contract": "",
+                "lines": [45],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "etherpot_lotto",
-        "source-path": "unchecked_low_level_calls_etherpot_lotto.sol",
-        "bytecode-path": "unchecked_low_level_calls_etherpot_lotto.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_etherpot_lotto.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_etherpot_lotto.hex",
         "source": "https://github.com/etherpot/contract/blob/master/app/contracts/lotto.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    109
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    141
-                ],
+                "contract": "",
+                "lines": [109, 141],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "king_of_the_ether_throne",
-        "source-path": "unchecked_low_level_calls_king_of_the_ether_throne.sol",
-        "bytecode-path": "unchecked_low_level_calls_king_of_the_ether_throne.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_king_of_the_ether_throne.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_king_of_the_ether_throne.hex",
         "source": "https://github.com/kieranelby/KingOfTheEtherThrone/blob/v0.4.0/contracts/KingOfTheEtherThrone.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    110
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    118
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    132
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    174
-                ],
+                "contract": "",
+                "lines": [110, 118, 132, 174],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "lotto",
-        "source-path": "unchecked_low_level_calls_lotto.sol",
-        "bytecode-path": "unchecked_low_level_calls_lotto.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_lotto.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_lotto.hex",
         "source": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
             {
-                "lines": [
-                    20
-                ],
-                "category": "unchecked_low_level_calls"
-            },
-            {
-                "lines": [
-                    27
-                ],
+                "contract": "",
+                "lines": [20, 27],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "mishandled",
-        "source-path": "unchecked_low_level_calls_mishandled.sol",
-        "bytecode-path": "unchecked_low_level_calls_mishandled.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_mishandled.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_mishandled.hex",
         "source": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/mishandled.sol",
         "vulnerabilities": [
             {
-                "lines": [
-                    14
-                ],
+                "contract": "",
+                "lines": [14],
                 "category": "unchecked_low_level_calls"
             }
         ]
     },
     {
         "id": "unchecked_return_value",
-        "source-path": "unchecked_low_level_calls_unchecked_return_value.sol",
-        "bytecode-path": "unchecked_low_level_calls_unchecked_return_value.hex",
+        "source-path": "vulnerable-sources/unchecked_low_level_calls_unchecked_return_value.sol",
+        "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_unchecked_return_value.hex",
         "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-104#unchecked-return-valuesol",
         "vulnerabilities": [
             {
-                "lines": [
-                    17
-                ],
+                "contract": "",
+                "lines": [17],
                 "category": "unchecked_low_level_calls"
             }
         ]

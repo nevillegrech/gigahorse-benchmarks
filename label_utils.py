@@ -19,7 +19,7 @@ def write_labels(labels, label_path=DEFAULT_LABEL_PATH):
         for cur_lab, label in enumerate(labels):
             print_indent('{', 1)
         
-            for field in ['id', 'source-path', 'contract-name', 'bytecode-path', 'origin']:
+            for field in ['id', 'source-path', 'contract-name', 'compiler-version', 'bytecode-path', 'origin']:
                 print_indent(f'"{field}": "{label[field]}",', 2)
         
             if not label['vulnerabilities']:

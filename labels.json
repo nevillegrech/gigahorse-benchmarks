@@ -3,6 +3,7 @@
         "id": "FibonacciBalance",
         "source-path": "vulnerable-sources/access_control_FibonacciBalance.sol",
         "contract-name": "FibonacciBalance",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_FibonacciBalance.hex",
         "origin": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
@@ -16,6 +17,7 @@
         "id": "arbitrary_location_write_simple",
         "source-path": "vulnerable-sources/access_control_arbitrary_location_write_simple.sol",
         "contract-name": "Wallet",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_arbitrary_location_write_simple.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-124#arbitrary-location-write-simplesol",
         "vulnerabilities": [
@@ -29,6 +31,7 @@
         "id": "incorrect_constructor_name1",
         "source-path": "vulnerable-sources/access_control_incorrect_constructor_name1.sol",
         "contract-name": "Missing",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_incorrect_constructor_name1.hex",
         "origin": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/wrong_constructor_name/incorrect_constructor.sol",
         "vulnerabilities": [
@@ -42,6 +45,7 @@
         "id": "incorrect_constructor_name2",
         "source-path": "vulnerable-sources/access_control_incorrect_constructor_name2.sol",
         "contract-name": "Missing",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_incorrect_constructor_name2.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-118#incorrect-constructor-name1sol",
         "vulnerabilities": [
@@ -55,6 +59,7 @@
         "id": "incorrect_constructor_name3",
         "source-path": "vulnerable-sources/access_control_incorrect_constructor_name3.sol",
         "contract-name": "Missing",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_incorrect_constructor_name3.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-118#incorrect-constructor-name2sol",
         "vulnerabilities": [
@@ -68,6 +73,7 @@
         "id": "mapping_write",
         "source-path": "vulnerable-sources/access_control_mapping_write.sol",
         "contract-name": "Map",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_mapping_write.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-124#mapping-writesol",
         "vulnerabilities": [
@@ -81,6 +87,7 @@
         "id": "multiowned_vulnerable",
         "source-path": "vulnerable-sources/access_control_multiowned_vulnerable.sol",
         "contract-name": "TestContract",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_multiowned_vulnerable.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/solidity/unprotected_critical_functions/multiowned_vulnerable/multiowned_vulnerable.sol",
         "vulnerabilities": [
@@ -94,6 +101,7 @@
         "id": "mycontract",
         "source-path": "vulnerable-sources/access_control_mycontract.sol",
         "contract-name": "MyContract",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_mycontract.hex",
         "origin": "https://consensys.github.io/smart-contract-best-practices/recommendations/#avoid-using-txorigin",
         "vulnerabilities": [
@@ -107,6 +115,7 @@
         "id": "parity_wallet_bug_1",
         "source-path": "vulnerable-sources/access_control_parity_wallet_bug_1.sol",
         "contract-name": "WalletLibrary",
+        "compiler-version": "0.4.11",
         "bytecode-path": "vulnerable-bytecode/access_control_parity_wallet_bug_1.hex",
         "origin": "https://github.com/paritytech/parity-ethereum/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol#L216",
         "vulnerabilities": [
@@ -120,6 +129,7 @@
         "id": "parity_wallet_bug_2",
         "source-path": "vulnerable-sources/access_control_parity_wallet_bug_2.sol",
         "contract-name": "WalletLibrary",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_parity_wallet_bug_2.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-106#walletlibrarysol",
         "vulnerabilities": [
@@ -133,6 +143,7 @@
         "id": "parity_wallet_bug_3",
         "source-path": "vulnerable-sources/access_control_parity_wallet_bug_3.sol",
         "contract-name": "Wallet",
+        "compiler-version": "0.4.11",
         "bytecode-path": "vulnerable-bytecode/access_control_parity_wallet_bug_3.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-106#walletlibrarysol",
         "vulnerabilities": [
@@ -146,6 +157,7 @@
         "id": "phishable",
         "source-path": "vulnerable-sources/access_control_phishable.sol",
         "contract-name": "Phishable",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_phishable.hex",
         "origin": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
@@ -159,6 +171,7 @@
         "id": "proxy",
         "source-path": "vulnerable-sources/access_control_proxy.sol",
         "contract-name": "Proxy",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_proxy.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-112#proxysol",
         "vulnerabilities": [
@@ -172,6 +185,7 @@
         "id": "rubixi",
         "source-path": "vulnerable-sources/access_control_rubixi.sol",
         "contract-name": "Rubixi",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_rubixi.hex",
         "origin": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/wrong_constructor_name/Rubixi_source_code/Rubixi.sol",
         "vulnerabilities": [
@@ -185,6 +199,7 @@
         "id": "simple_suicide",
         "source-path": "vulnerable-sources/access_control_simple_suicide.sol",
         "contract-name": "SimpleSuicide",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_simple_suicide.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/unprotected_critical_functions/simple_suicide.sol",
         "vulnerabilities": [
@@ -198,6 +213,7 @@
         "id": "unprotected0",
         "source-path": "vulnerable-sources/access_control_unprotected0.sol",
         "contract-name": "Unprotected",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_unprotected0.hex",
         "origin": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/unprotected_function/Unprotected.sol",
         "vulnerabilities": [
@@ -211,6 +227,7 @@
         "id": "wallet_02_refund_nosub",
         "source-path": "vulnerable-sources/access_control_wallet_02_refund_nosub.sol",
         "contract-name": "Wallet",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_wallet_02_refund_nosub.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#wallet-02-refund-nosubsol",
         "vulnerabilities": [
@@ -224,6 +241,7 @@
         "id": "wallet_03_wrong_constructor",
         "source-path": "vulnerable-sources/access_control_wallet_03_wrong_constructor.sol",
         "contract-name": "Wallet",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_wallet_03_wrong_constructor.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#wallet-03-wrong-constructorsol",
         "vulnerabilities": [
@@ -237,6 +255,7 @@
         "id": "wallet_04_confused_sign",
         "source-path": "vulnerable-sources/access_control_wallet_04_confused_sign.sol",
         "contract-name": "Wallet",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/access_control_wallet_04_confused_sign.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#wallet-04-confused-signsol",
         "vulnerabilities": [
@@ -250,6 +269,7 @@
         "id": "BECToken",
         "source-path": "vulnerable-sources/arithmetic_BECToken.sol",
         "contract-name": "BecToken",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_BECToken.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101#bectokensol",
         "vulnerabilities": [
@@ -263,6 +283,7 @@
         "id": "insecure_transfer",
         "source-path": "vulnerable-sources/arithmetic_insecure_transfer.sol",
         "contract-name": "IntegerOverflowAdd",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_insecure_transfer.hex",
         "origin": "https://consensys.github.io/smart-contract-best-practices/known_attacks/#front-running-aka-transaction-ordering-dependence",
         "vulnerabilities": [
@@ -276,6 +297,7 @@
         "id": "integer_overflow_1",
         "source-path": "vulnerable-sources/arithmetic_integer_overflow_1.sol",
         "contract-name": "Overflow",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_1.hex",
         "origin": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/integer_overflow/integer_overflow_1.sol",
         "vulnerabilities": [
@@ -289,6 +311,7 @@
         "id": "integer_overflow_add",
         "source-path": "vulnerable-sources/arithmetic_integer_overflow_add.sol",
         "contract-name": "IntegerOverflowAdd",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_add.hex",
         "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite/blob/master/benchmarks/integer_overflow_add.sol",
         "vulnerabilities": [
@@ -302,6 +325,7 @@
         "id": "integer_overflow_benign_1",
         "source-path": "vulnerable-sources/arithmetic_integer_overflow_benign_1.sol",
         "contract-name": "IntegerOverflowBenign1",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_benign_1.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_benign_1.sol",
         "vulnerabilities": [
@@ -315,6 +339,7 @@
         "id": "integer_overflow_mapping_sym_1",
         "source-path": "vulnerable-sources/arithmetic_integer_overflow_mapping_sym_1.sol",
         "contract-name": "IntegerOverflowMappingSym1",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_mapping_sym_1.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_mapping_sym_1.sol",
         "vulnerabilities": [
@@ -328,6 +353,7 @@
         "id": "integer_overflow_minimal",
         "source-path": "vulnerable-sources/arithmetic_integer_overflow_minimal.sol",
         "contract-name": "IntegerOverflowMinimal",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_minimal.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_minimal.sol",
         "vulnerabilities": [
@@ -341,6 +367,7 @@
         "id": "integer_overflow_mul",
         "source-path": "vulnerable-sources/arithmetic_integer_overflow_mul.sol",
         "contract-name": "IntegerOverflowMul",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_mul.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_mul.sol",
         "vulnerabilities": [
@@ -354,6 +381,7 @@
         "id": "integer_overflow_multitx_multifunc_feasible",
         "source-path": "vulnerable-sources/arithmetic_integer_overflow_multitx_multifunc_feasible.sol",
         "contract-name": "IntegerOverflowMultiTxMultiFuncFeasible",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_multitx_multifunc_feasible.hex",
         "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
@@ -367,6 +395,7 @@
         "id": "integer_overflow_multitx_onefunc_feasible",
         "source-path": "vulnerable-sources/arithmetic_integer_overflow_multitx_onefunc_feasible.sol",
         "contract-name": "IntegerOverflowMultiTxOneFuncFeasible",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_multitx_onefunc_feasible.hex",
         "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
@@ -380,6 +409,7 @@
         "id": "overflow_simple_add",
         "source-path": "vulnerable-sources/arithmetic_overflow_simple_add.sol",
         "contract-name": "Overflow_Add",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_overflow_simple_add.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101#overflow-simple-addsol",
         "vulnerabilities": [
@@ -393,6 +423,7 @@
         "id": "overflow_single_tx",
         "source-path": "vulnerable-sources/arithmetic_overflow_single_tx.sol",
         "contract-name": "IntegerOverflowSingleTransaction",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_overflow_single_tx.hex",
         "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
@@ -406,6 +437,7 @@
         "id": "timelock",
         "source-path": "vulnerable-sources/arithmetic_timelock.sol",
         "contract-name": "TimeLock",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_timelock.hex",
         "origin": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
@@ -419,6 +451,7 @@
         "id": "token",
         "source-path": "vulnerable-sources/arithmetic_token.sol",
         "contract-name": "Token",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_token.hex",
         "origin": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
@@ -432,6 +465,7 @@
         "id": "tokensalechallenge",
         "source-path": "vulnerable-sources/arithmetic_tokensalechallenge.sol",
         "contract-name": "TokenSaleChallenge",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_tokensalechallenge.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101 // https://capturetheether.com/challenges/math/token-sale/",
         "vulnerabilities": [
@@ -445,6 +479,7 @@
         "id": "etheraffle",
         "source-path": "vulnerable-sources/bad_randomness_etheraffle.sol",
         "contract-name": "Ethraffle_v4b",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/bad_randomness_etheraffle.hex",
         "origin": "https://etherscan.io/address/0xcC88937F325d1C6B97da0AFDbb4cA542EFA70870#code",
         "vulnerabilities": [
@@ -458,6 +493,7 @@
         "id": "lottery",
         "source-path": "vulnerable-sources/access_control_lottery.sol",
         "contract-name": "",
+        "compiler-version": "",
         "bytecode-path": "vulnerable-bytecode/access_control_lottery.hex",
         "origin": "https://etherscan.io/address/0x80ddae5251047d6ceb29765f38fed1c0013004b7#code",
         "vulnerabilities": [
@@ -470,6 +506,7 @@
         "id": "lucky_doubler",
         "source-path": "vulnerable-sources/bad_randomness_lucky_doubler.sol",
         "contract-name": "LuckyDoubler",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/bad_randomness_lucky_doubler.hex",
         "origin": "https://etherscan.io/address/0xF767fCA8e65d03fE16D4e38810f5E5376c3372A8#code",
         "vulnerabilities": [
@@ -483,6 +520,7 @@
         "id": "old_blockhash",
         "source-path": "vulnerable-sources/bad_randomness_old_blockhash.sol",
         "contract-name": "PredictTheBlockHashChallenge",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/bad_randomness_old_blockhash.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/weak_randomness/old_blockhash.sol",
         "vulnerabilities": [
@@ -496,6 +534,7 @@
         "id": "smart_billions",
         "source-path": "vulnerable-sources/bad_randomness_smart_billions.sol",
         "contract-name": "SmartBillions",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/bad_randomness_smart_billions.hex",
         "origin": "https://etherscan.io/address/0x5ace17f87c7391e5792a7683069a8025b83bbd85#code",
         "vulnerabilities": [
@@ -509,6 +548,7 @@
         "id": "auction",
         "source-path": "vulnerable-sources/denial_of_service_auction.sol",
         "contract-name": "DosAuction",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/denial_of_service_auction.hex",
         "origin": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/denial_of_service/auction.sol",
         "vulnerabilities": [
@@ -522,6 +562,7 @@
         "id": "dos_address",
         "source-path": "vulnerable-sources/denial_of_service_dos_address.sol",
         "contract-name": "DosGas",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/denial_of_service_dos_address.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/dos_gas_limit/dos_address.sol",
         "vulnerabilities": [
@@ -535,6 +576,7 @@
         "id": "dos_number",
         "source-path": "vulnerable-sources/denial_of_service_dos_number.sol",
         "contract-name": "DosNumber",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/denial_of_service_dos_number.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/dos_gas_limit/dos_number.sol",
         "vulnerabilities": [
@@ -548,6 +590,7 @@
         "id": "dos_simple",
         "source-path": "vulnerable-sources/denial_of_service_dos_simple.sol",
         "contract-name": "DosOneFunc",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/denial_of_service_dos_simple.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/dos_gas_limit/dos_simple.sol",
         "vulnerabilities": [
@@ -561,6 +604,7 @@
         "id": "list_dos",
         "source-path": "vulnerable-sources/denial_of_service_list_dos.sol",
         "contract-name": "Government",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/denial_of_service_list_dos.hex",
         "origin": "https://etherscan.io/address/0xf45717552f12ef7cb65e95476f217ea008167ae3#code",
         "vulnerabilities": [
@@ -574,6 +618,7 @@
         "id": "send_loop",
         "source-path": "vulnerable-sources/denial_of_service_send_loop.sol",
         "contract-name": "",
+        "compiler-version": "",
         "bytecode-path": "vulnerable-bytecode/denial_of_service_send_loop.hex",
         "origin": "https://consensys.github.io/smart-contract-best-practices/known_attacks/#dos-with-unexpected-revert",
         "vulnerabilities": [
@@ -587,6 +632,7 @@
         "id": "ERC20",
         "source-path": "vulnerable-sources/front_running_ERC20.sol",
         "contract-name": "ERC20",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/front_running_ERC20.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/transaction_order_dependence/ERC20.sol",
         "vulnerabilities": [
@@ -600,6 +646,7 @@
         "id": "FindThisHash",
         "source-path": "vulnerable-sources/front_running_FindThisHash.sol",
         "contract-name": "FindThisHash",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/front_running_FindThisHash.hex",
         "origin": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
@@ -613,6 +660,7 @@
         "id": "eth_tx_order_dependence_minimal",
         "source-path": "vulnerable-sources/front_running_eth_tx_order_dependence_minimal.sol",
         "contract-name": "EthTxOrderDependenceMinimal",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/front_running_eth_tx_order_dependence_minimal.hex",
         "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
@@ -626,6 +674,7 @@
         "id": "odds_and_evens",
         "source-path": "vulnerable-sources/front_running_odds_and_evens.sol",
         "contract-name": "OddsAndEvens",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/front_running_odds_and_evens.hex",
         "origin": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#oddsandevens",
         "vulnerabilities": [
@@ -639,6 +688,7 @@
         "id": "crypto_roulette",
         "source-path": "vulnerable-sources/other_crypto_roulette.sol",
         "contract-name": "CryptoRoulette",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/other_crypto_roulette.hex",
         "origin": "https://github.com/thec00n/smart-contract-honeypots/blob/master/CryptoRoulette.sol",
         "vulnerabilities": [
@@ -652,6 +702,7 @@
         "id": "name_registrar",
         "source-path": "vulnerable-sources/other_name_registrar.sol",
         "contract-name": "NameRegistrar",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/other_name_registrar.hex",
         "origin": "https://github.com/sigp/solidity-security-blog#storage-example",
         "vulnerabilities": [
@@ -665,6 +716,7 @@
         "id": "open_address_lottery",
         "source-path": "vulnerable-sources/other_open_address_lottery.sol",
         "contract-name": "OpenAddressLottery",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/other_open_address_lottery.hex",
         "origin": "https://etherscan.io/address/0x741f1923974464efd0aa70e77800ba5d9ed18902#code",
         "vulnerabilities": [
@@ -678,6 +730,7 @@
         "id": "0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f",
         "source-path": "vulnerable-sources/reentrancy_0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol",
         "contract-name": "PERSONAL_BANK",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -691,6 +744,7 @@
         "id": "0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4",
         "source-path": "vulnerable-sources/reentrancy_0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -704,6 +758,7 @@
         "id": "0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1",
         "source-path": "vulnerable-sources/reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
         "contract-name": "ACCURAL_DEPOSIT",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -717,6 +772,7 @@
         "id": "0x4e73b32ed6c35f570686b89848e5f39f20ecc106",
         "source-path": "vulnerable-sources/reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol",
         "contract-name": "PRIVATE_ETH_CELL",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -730,6 +786,7 @@
         "id": "0x561eac93c92360949ab1f1403323e6db345cbf31",
         "source-path": "vulnerable-sources/reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
         "contract-name": "BANK_SAFE",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -743,6 +800,7 @@
         "id": "0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839",
         "source-path": "vulnerable-sources/reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
         "contract-name": "TokenBank",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -756,6 +814,7 @@
         "id": "0x7541b76cb60f4c60af330c208b0623b7f54bf615",
         "source-path": "vulnerable-sources/reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -769,6 +828,7 @@
         "id": "0x7a8721a9d64c74da899424c1b52acbf58ddc9782",
         "source-path": "vulnerable-sources/reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
         "contract-name": "PrivateDeposit",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -782,6 +842,7 @@
         "id": "0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3",
         "source-path": "vulnerable-sources/reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -795,6 +856,7 @@
         "id": "0x8c7777c45481dba411450c228cb692ac3d550344",
         "source-path": "vulnerable-sources/reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -808,6 +870,7 @@
         "id": "0x93c32845fae42c83a70e5f06214c8433665c2ab5",
         "source-path": "vulnerable-sources/reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -821,6 +884,7 @@
         "id": "0x941d225236464a25eb18076df7da6a91d0f95e9e",
         "source-path": "vulnerable-sources/reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -834,6 +898,7 @@
         "id": "0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b",
         "source-path": "vulnerable-sources/reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
         "contract-name": "PENNY_BY_PENNY",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -847,6 +912,7 @@
         "id": "0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8",
         "source-path": "vulnerable-sources/reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
         "contract-name": "DEP_BANK",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -860,6 +926,7 @@
         "id": "0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12",
         "source-path": "vulnerable-sources/reentrancy_0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -873,6 +940,7 @@
         "id": "0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e",
         "source-path": "vulnerable-sources/reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -886,6 +954,7 @@
         "id": "0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f",
         "source-path": "vulnerable-sources/reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -899,6 +968,7 @@
         "id": "0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888",
         "source-path": "vulnerable-sources/reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
         "contract-name": "MONEY_BOX",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -912,6 +982,7 @@
         "id": "0xcead721ef5b11f1a7b530171aab69b16c5e66b6e",
         "source-path": "vulnerable-sources/reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -925,6 +996,7 @@
         "id": "0xf015c35649c82f5467c9c74b7f28ee67665aad68",
         "source-path": "vulnerable-sources/reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
         "contract-name": "Log",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -938,6 +1010,7 @@
         "id": "etherbank",
         "source-path": "vulnerable-sources/reentrancy_etherbank.sol",
         "contract-name": "EtherBank",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_etherbank.hex",
         "origin": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/reentrant.sol",
         "vulnerabilities": [
@@ -951,6 +1024,7 @@
         "id": "etherstore",
         "source-path": "vulnerable-sources/reentrancy_etherstore.sol",
         "contract-name": "EtherStore",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_etherstore.hex",
         "origin": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
@@ -964,6 +1038,7 @@
         "id": "modifier_reentrancy",
         "source-path": "vulnerable-sources/reentrancy_modifier_reentrancy.sol",
         "contract-name": "ModifierEntrancy",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_modifier_reentrancy.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/reentracy/modifier_reentrancy.sol",
         "vulnerabilities": [
@@ -977,6 +1052,7 @@
         "id": "reentrance",
         "source-path": "vulnerable-sources/reentrancy_reentrance.sol",
         "contract-name": "Reentrance",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_reentrance.hex",
         "origin": "https://ethernaut.zeppelin.solutions/level/0xf70706db003e94cfe4b5e27ffd891d5c81b39488",
         "vulnerabilities": [
@@ -990,6 +1066,7 @@
         "id": "reentrancy_bonus",
         "source-path": "vulnerable-sources/reentrancy_reentrancy_bonus.sol",
         "contract-name": "Reentrancy_bonus",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_bonus.hex",
         "origin": "https://consensys.github.io/smart-contract-best-practices/known_attacks/",
         "vulnerabilities": [
@@ -1003,6 +1080,7 @@
         "id": "reentrancy_cross_function",
         "source-path": "vulnerable-sources/reentrancy_reentrancy_cross_function.sol",
         "contract-name": "Reentrancy_cross_function",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_cross_function.hex",
         "origin": "https://consensys.github.io/smart-contract-best-practices/known_attacks/",
         "vulnerabilities": [
@@ -1016,6 +1094,7 @@
         "id": "reentrancy_dao",
         "source-path": "vulnerable-sources/reentrancy_reentrancy_dao.sol",
         "contract-name": "ReentrancyDAO",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_dao.hex",
         "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
@@ -1029,6 +1108,7 @@
         "id": "reentrancy_insecure",
         "source-path": "vulnerable-sources/reentrancy_reentrancy_insecure.sol",
         "contract-name": "Reentrancy_insecure",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_insecure.hex",
         "origin": "https://consensys.github.io/smart-contract-best-practices/known_attacks/",
         "vulnerabilities": [
@@ -1042,6 +1122,7 @@
         "id": "reentrancy_simple",
         "source-path": "vulnerable-sources/reentrancy_reentrancy_simple.sol",
         "contract-name": "Reentrance",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_reentrancy_simple.hex",
         "origin": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/reentrancy/Reentrancy.sol",
         "vulnerabilities": [
@@ -1055,6 +1136,7 @@
         "id": "simple_dao",
         "source-path": "vulnerable-sources/reentrancy_simple_dao.sol",
         "contract-name": "SimpleDAO",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_simple_dao.hex",
         "origin": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#simpledao",
         "vulnerabilities": [
@@ -1068,6 +1150,7 @@
         "id": "spank_chain_payment",
         "source-path": "vulnerable-sources/reentrancy_spank_chain_payment.sol",
         "contract-name": "LedgerChannel",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/reentrancy_spank_chain_payment.hex",
         "origin": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/reentrancy/SpankChain_source_code/SpankChain_Payment.sol",
         "vulnerabilities": [
@@ -1081,6 +1164,7 @@
         "id": "short_address_example",
         "source-path": "vulnerable-sources/short_addresses_short_address_example.sol",
         "contract-name": "MyToken",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/short_addresses_short_address_example.hex",
         "origin": "https://ericrafaloff.com/analyzing-the-erc20-short-address-attack/",
         "vulnerabilities": [
@@ -1094,6 +1178,7 @@
         "id": "ether_lotto",
         "source-path": "vulnerable-sources/time_manipulation_ether_lotto.sol",
         "contract-name": "EtherLotto",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/time_manipulation_ether_lotto.hex",
         "origin": "https://etherscan.io/address/0xa11e4ed59dc94e69612f3111942626ed513cb172#code",
         "vulnerabilities": [
@@ -1107,6 +1192,7 @@
         "id": "governmental_survey",
         "source-path": "vulnerable-sources/time_manipulation_governmental_survey.sol",
         "contract-name": "Governmental",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/time_manipulation_governmental_survey.hex",
         "origin": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#governmental",
         "vulnerabilities": [
@@ -1120,6 +1206,7 @@
         "id": "lottopollo",
         "source-path": "vulnerable-sources/time_manipulation_lottopollo.sol",
         "contract-name": "lottopollo",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/time_manipulation_lottopollo.hex",
         "origin": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/timestampdependent.sol",
         "vulnerabilities": [
@@ -1133,6 +1220,7 @@
         "id": "roulette",
         "source-path": "vulnerable-sources/time_manipulation_roulette.sol",
         "contract-name": "Roulette",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/time_manipulation_roulette.hex",
         "origin": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
@@ -1146,6 +1234,7 @@
         "id": "timed_crowdsale",
         "source-path": "vulnerable-sources/time_manipulation_timed_crowdsale.sol",
         "contract-name": "TimedCrowdsale",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/time_manipulation_timed_crowdsale.hex",
         "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/timestamp_dependence/timed_crowdsale.sol",
         "vulnerabilities": [
@@ -1159,6 +1248,7 @@
         "id": "0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
         "contract-name": "PoCGame",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1172,6 +1262,7 @@
         "id": "0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol",
         "contract-name": "Caller",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1185,6 +1276,7 @@
         "id": "0x19cf8481ea15427a98ba3cdd6d9e14690011ab10",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
         "contract-name": "daoPOLSKAtokens",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1198,6 +1290,7 @@
         "id": "0x2972d548497286d18e92b5fa1f8f9139e5653fd2",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol",
         "contract-name": "demo",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x2972d548497286d18e92b5fa1f8f9139e5653fd2.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1211,6 +1304,7 @@
         "id": "0x39cfd754c85023648bf003bea2dd498c5612abfa",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
         "contract-name": "TokenBank",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1224,6 +1318,7 @@
         "id": "0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
         "contract-name": "TokenBank",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1237,6 +1332,7 @@
         "id": "0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
         "contract-name": "MultiplicatorX4",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1250,6 +1346,7 @@
         "id": "0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol",
         "contract-name": "WhaleGiveaway2",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1263,6 +1360,7 @@
         "id": "0x4051334adc52057aca763453820cb0e045076ef3",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x4051334adc52057aca763453820cb0e045076ef3.sol",
         "contract-name": "airdrop",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x4051334adc52057aca763453820cb0e045076ef3.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1276,6 +1374,7 @@
         "id": "0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
         "contract-name": "EBU",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1289,6 +1388,7 @@
         "id": "0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol",
         "contract-name": "airPort",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1302,6 +1402,7 @@
         "id": "0x524960d55174d912768678d8c606b4d50b79d7b1",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
         "contract-name": "Centra4",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x524960d55174d912768678d8c606b4d50b79d7b1.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1315,6 +1416,7 @@
         "id": "0x52d2e0f9b01101a59b38a3d05c80b7618aeed984",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
         "contract-name": "EtherGet",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1328,6 +1430,7 @@
         "id": "0x5aa88d2901c68fda244f1d0584400368d2c8e739",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol",
         "contract-name": "MultiplicatorX3",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x5aa88d2901c68fda244f1d0584400368d2c8e739.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1341,6 +1444,7 @@
         "id": "0x610495793564aed0f9c7fc48dc4c7c9151d34fd6",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol",
         "contract-name": "SimpleWallet",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1354,6 +1458,7 @@
         "id": "0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
         "contract-name": "TokenBank",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1367,6 +1472,7 @@
         "id": "0x663e4229142a27f00bafb5d087e1e730648314c3",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
         "contract-name": "PandaCore",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1380,6 +1486,7 @@
         "id": "0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
         "contract-name": "HomeyJar",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1393,6 +1500,7 @@
         "id": "0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.sol",
         "contract-name": "WhaleGiveaway1",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1406,6 +1514,7 @@
         "id": "0x7a4349a749e59a5736efb7826ee3496a2dfd5489",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol",
         "contract-name": "WhaleGiveaway1",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x7a4349a749e59a5736efb7826ee3496a2dfd5489.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1419,6 +1528,7 @@
         "id": "0x7d09edb07d23acb532a82be3da5c17d9d85806b4",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
         "contract-name": "PoCGame",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x7d09edb07d23acb532a82be3da5c17d9d85806b4.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1432,6 +1542,7 @@
         "id": "0x806a6bd219f162442d992bdc4ee6eba1f2c5a707",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol",
         "contract-name": "Pie",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1445,6 +1556,7 @@
         "id": "0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
         "contract-name": "WedIndex",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1458,6 +1570,7 @@
         "id": "0x89c1b3807d4c67df034fffb62f3509561218d30b",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
         "contract-name": "TownCrier",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x89c1b3807d4c67df034fffb62f3509561218d30b.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1471,6 +1584,7 @@
         "id": "0x8fd1e427396ddb511533cf9abdbebd0a7e08da35",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol",
         "contract-name": "TokenBank",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1484,6 +1598,7 @@
         "id": "0x958a8f594101d2c0485a52319f29b2647f2ebc06",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
         "contract-name": "Marriage",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1497,6 +1612,7 @@
         "id": "0x9d06cbafa865037a01d322d3f4222fa3e04e5488",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
         "contract-name": "Delta",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0x9d06cbafa865037a01d322d3f4222fa3e04e5488.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1510,6 +1626,7 @@
         "id": "0xa1fceeff3acc57d257b917e30c4df661401d6431",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xa1fceeff3acc57d257b917e30c4df661401d6431.sol",
         "contract-name": "AirDropContract",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xa1fceeff3acc57d257b917e30c4df661401d6431.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1523,6 +1640,7 @@
         "id": "0xa46edd6a9a93feec36576ee5048146870ea2c3ae",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol",
         "contract-name": "EBU",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xa46edd6a9a93feec36576ee5048146870ea2c3ae.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1536,6 +1654,7 @@
         "id": "0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
         "contract-name": "Splitter",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1549,6 +1668,7 @@
         "id": "0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
         "contract-name": "DepositProxy",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1562,6 +1682,7 @@
         "id": "0xb37f18af15bafb869a065b61fc83cfc44ed9cc27",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
         "contract-name": "SimpleWallet",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1575,6 +1696,7 @@
         "id": "0xb620cee6b52f96f3c6b253e6eea556aa2d214a99",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
         "contract-name": "DrainMe",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1588,6 +1710,7 @@
         "id": "0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
         "contract-name": "keepMyEther",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1601,6 +1724,7 @@
         "id": "0xbaa3de6504690efb064420d89e871c27065cdd52",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
         "contract-name": "VaultProxy",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1614,6 +1738,7 @@
         "id": "0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
         "contract-name": "VaultProxy",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1627,6 +1752,7 @@
         "id": "0xd2018bfaa266a9ec0a1a84b061640faa009def76",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol",
         "contract-name": "Pie",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xd2018bfaa266a9ec0a1a84b061640faa009def76.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1640,6 +1766,7 @@
         "id": "0xd5967fed03e85d1cce44cab284695b41bc675b5c",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol",
         "contract-name": "demo",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xd5967fed03e85d1cce44cab284695b41bc675b5c.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1653,6 +1780,7 @@
         "id": "0xdb1c55f6926e7d847ddf8678905ad871a68199d2",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol",
         "contract-name": "FreeEth",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1666,6 +1794,7 @@
         "id": "0xe09b1ab8111c2729a76f16de96bc86a7af837928",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
         "contract-name": "FiftyFlip",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xe09b1ab8111c2729a76f16de96bc86a7af837928.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1679,6 +1808,7 @@
         "id": "0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol",
         "contract-name": "Honey",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1692,6 +1822,7 @@
         "id": "0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
         "contract-name": "Freebie",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1705,6 +1836,7 @@
         "id": "0xe894d54dca59cb53fe9cbc5155093605c7068220",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
         "contract-name": "airDrop",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xe894d54dca59cb53fe9cbc5155093605c7068220.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1718,6 +1850,7 @@
         "id": "0xec329ffc97d75fe03428ae155fc7793431487f63",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
         "contract-name": "TokenSender",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1731,6 +1864,7 @@
         "id": "0xf2570186500a46986f3139f65afedc2afe4f445d",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
         "contract-name": "RealOldFuckMaker",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xf2570186500a46986f3139f65afedc2afe4f445d.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1744,6 +1878,7 @@
         "id": "0xf29ebe930a539a60279ace72c707cba851a57707",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xf29ebe930a539a60279ace72c707cba851a57707.sol",
         "contract-name": "B",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xf29ebe930a539a60279ace72c707cba851a57707.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1757,6 +1892,7 @@
         "id": "0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
         "contract-name": "WhaleGiveaway2",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.hex",
         "origin": "etherscan.io",
         "vulnerabilities": [
@@ -1770,6 +1906,7 @@
         "id": "etherpot_lotto",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_etherpot_lotto.sol",
         "contract-name": "Lotto",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_etherpot_lotto.hex",
         "origin": "https://github.com/etherpot/contract/blob/master/app/contracts/lotto.sol",
         "vulnerabilities": [
@@ -1783,6 +1920,7 @@
         "id": "king_of_the_ether_throne",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_king_of_the_ether_throne.sol",
         "contract-name": "KingOfTheEtherThrone",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_king_of_the_ether_throne.hex",
         "origin": "https://github.com/kieranelby/KingOfTheEtherThrone/blob/v0.4.0/contracts/KingOfTheEtherThrone.sol",
         "vulnerabilities": [
@@ -1796,6 +1934,7 @@
         "id": "lotto",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_lotto.sol",
         "contract-name": "Lotto",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_lotto.hex",
         "origin": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
@@ -1809,6 +1948,7 @@
         "id": "mishandled",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_mishandled.sol",
         "contract-name": "SendBack",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_mishandled.hex",
         "origin": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/mishandled.sol",
         "vulnerabilities": [
@@ -1822,6 +1962,7 @@
         "id": "unchecked_return_value",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_unchecked_return_value.sol",
         "contract-name": "ReturnValue",
+        "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/unchecked_low_level_calls_unchecked_return_value.hex",
         "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-104#unchecked-return-valuesol",
         "vulnerabilities": [

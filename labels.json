@@ -106,12 +106,12 @@
     {
         "id": "parity_wallet_bug_1",
         "source-path": "vulnerable-sources/access_control_parity_wallet_bug_1.sol",
-        "contract-name": "",
+        "contract-name": "WalletLibrary",
         "bytecode-path": "vulnerable-bytecode/access_control_parity_wallet_bug_1.hex",
         "origin": "https://github.com/paritytech/parity-ethereum/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol#L216",
         "vulnerabilities": [
             {
-                "lines": [223, 437],
+                "lines": [223],
                 "category": "access_control"
             }
         ]
@@ -125,6 +125,19 @@
         "vulnerabilities": [
             {
                 "lines": [226, 233],
+                "category": "access_control"
+            }
+        ]
+    },
+    {
+        "id": "parity_wallet_bug_3",
+        "source-path": "vulnerable-sources/access_control_parity_wallet_bug_3.sol",
+        "contract-name": "Wallet",
+        "bytecode-path": "vulnerable-bytecode/access_control_parity_wallet_bug_3.hex",
+        "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-106#walletlibrarysol",
+        "vulnerabilities": [
+            {
+                "lines": [437],
                 "category": "access_control"
             }
         ]

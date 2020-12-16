@@ -1,7 +1,7 @@
 /*
  * @source: https://github.com/paritytech/parity-ethereum/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol#L216
  * @author: parity
- * @vulnerable_at_lines: 223
+ * @vulnerable_at_lines: 437
  */
 
 //sol Wallet
@@ -219,7 +219,6 @@ contract WalletLibrary is WalletEvents {
 
   // constructor - just pass on the owner array to the multiowned and
   // the limit to daylimit
-  // <yes> <report> ACCESS_CONTROL
   function initWallet(address[] _owners, uint _required, uint _daylimit) {
     initDaylimit(_daylimit);
     initMultiowned(_owners, _required);
@@ -434,6 +433,7 @@ contract Wallet is WalletEvents {
     if (msg.value > 0)
       Deposit(msg.sender, msg.value);
     else if (msg.data.length > 0)
+      // <yes> <report> ACCESS_CONTROL
       if(!_walletLibrary.delegatecall(msg.data)) throw; //it should have whitelisted specific methods that the user is allowed to call
   }
 

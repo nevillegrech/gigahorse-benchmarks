@@ -27,7 +27,7 @@ class GigahorseEvaluator(Evaluator):
     def init(self, filepath):
         with open(filepath) as f:
             results_json = json.load(f)
-        self.gigahorse_flags = {name: {k for k, v in vulns.items() if isinstance(v, str) and v} for name, _, _, vulns in results_json}
+        self.gigahorse_flags = {name: vulns for name, vulns, _, _ in results_json}
             
             
     def process_results(self):
@@ -37,7 +37,7 @@ class GigahorseEvaluator(Evaluator):
         for label in self.labels:
             example = label['bytecode-path'].split('/')[-1]
             try:
-                program_size = len(open(join(BENCHMARKS_DIR, example)).read())
+                program_size = len(open(join(BENCHMARKS_DIR, label['bytecode-path'])).read())
             except IOError:
                 # not found
                 program_size = 0
@@ -69,6 +69,7 @@ class GigahorseEvaluator(Evaluator):
 
 class EthaneEvaluator(GigahorseEvaluator):
     mappings = {
+        'ArithmeticOverflow': 'arithmetic',
         'AccessibleSelfdestruct': 'access_control',
         'TaintedDelegatecall': 'access_control',
         'TaintedSelfdestruct': 'access_control',
@@ -77,6 +78,7 @@ class EthaneEvaluator(GigahorseEvaluator):
         'Reentrancy': 'reentrancy',
         'UnboundedMassOp': 'denial_of_service',
         'WalletGriefing': 'denial_of_service',
+        'UncheckedLowLevelCall': 'unchecked_low_level_call'
     }
 
 class SymvalicEvaluator(GigahorseEvaluator):

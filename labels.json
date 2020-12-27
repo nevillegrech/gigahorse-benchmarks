@@ -266,20 +266,6 @@
         ]
     },
     {
-        "id": "BECToken",
-        "source-path": "vulnerable-sources/arithmetic_BECToken.sol",
-        "contract-name": "BecToken",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/arithmetic_BECToken.hex",
-        "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101#bectokensol",
-        "vulnerabilities": [
-            {
-                "lines": [264],
-                "category": "arithmetic"
-            }
-        ]
-    },
-    {
         "id": "insecure_transfer",
         "source-path": "vulnerable-sources/arithmetic_insecure_transfer.sol",
         "contract-name": "IntegerOverflowAdd",
@@ -314,20 +300,6 @@
         "compiler-version": "0.4.25",
         "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_add.hex",
         "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite/blob/master/benchmarks/integer_overflow_add.sol",
-        "vulnerabilities": [
-            {
-                "lines": [17],
-                "category": "arithmetic"
-            }
-        ]
-    },
-    {
-        "id": "integer_overflow_benign_1",
-        "source-path": "vulnerable-sources/arithmetic_integer_overflow_benign_1.sol",
-        "contract-name": "IntegerOverflowBenign1",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/arithmetic_integer_overflow_benign_1.hex",
-        "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_benign_1.sol",
         "vulnerabilities": [
             {
                 "lines": [17],

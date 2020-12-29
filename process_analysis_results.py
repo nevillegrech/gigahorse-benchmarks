@@ -9,7 +9,7 @@ from os.path import abspath, dirname, join, getsize
 
 BENCHMARKS_DIR = dirname(abspath(__file__))
 INTERACTIVE = True
-assert(__name__ == '__main__', "Not a library")
+assert __name__ == '__main__', "Not a library"
 
 class Evaluator:
     def __init__(self, filepath):
@@ -86,7 +86,8 @@ class SymvalicEvaluator(GigahorseEvaluator):
         'Symbolic_AccessibleSelfDestruct': 'access_control',
         'Symbolic_TaintedSelfDestruct': 'access_control',
         'Symbolic_TaintedDelegateCall': 'access_control',
-        'Symbolic_ArithmeticError': 'arithmetic',
+        'Symbolic_BlockGuardedYetPubliclyReachable': 'access_control',
+        'Symbolic_ArithmeticErrorHighConfidence': 'arithmetic',
         'Symbolic_BadRandomness': 'bad_randomness',
         'Symbolic_Reentrancy': 'reentrancy',
         'Symbolic_TaintedOwnershipGuard': 'access_control',

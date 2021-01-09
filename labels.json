@@ -210,34 +210,6 @@
         ]
     },
     {
-        "id": "unprotected0",
-        "source-path": "vulnerable-sources/access_control_unprotected0.sol",
-        "contract-name": "Unprotected",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/access_control_unprotected0.hex",
-        "origin": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/unprotected_function/Unprotected.sol",
-        "vulnerabilities": [
-            {
-                "lines": [25],
-                "category": "access_control"
-            }
-        ]
-    },
-    {
-        "id": "wallet_02_refund_nosub",
-        "source-path": "vulnerable-sources/access_control_wallet_02_refund_nosub.sol",
-        "contract-name": "Wallet",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/access_control_wallet_02_refund_nosub.hex",
-        "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#wallet-02-refund-nosubsol",
-        "vulnerabilities": [
-            {
-                "lines": [36],
-                "category": "access_control"
-            }
-        ]
-    },
-    {
         "id": "wallet_03_wrong_constructor",
         "source-path": "vulnerable-sources/access_control_wallet_03_wrong_constructor.sol",
         "contract-name": "Wallet",
@@ -247,20 +219,6 @@
         "vulnerabilities": [
             {
                 "lines": [19, 20],
-                "category": "access_control"
-            }
-        ]
-    },
-    {
-        "id": "wallet_04_confused_sign",
-        "source-path": "vulnerable-sources/access_control_wallet_04_confused_sign.sol",
-        "contract-name": "Wallet",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/access_control_wallet_04_confused_sign.hex",
-        "origin": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#wallet-04-confused-signsol",
-        "vulnerabilities": [
-            {
-                "lines": [30],
                 "category": "access_control"
             }
         ]

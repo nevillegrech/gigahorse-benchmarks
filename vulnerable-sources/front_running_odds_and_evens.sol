@@ -36,9 +36,11 @@ contract OddsAndEvens{
     uint n = players[0].number+players[1].number;
     if (n%2==0) {
       res = players[0].addr.send(1800 finney);
+      require(res);
     }
     else {
       res = players[1].addr.send(1800 finney);
+      require(res);
     }
 
     delete players;
@@ -48,6 +50,7 @@ contract OddsAndEvens{
   function getProfit() {
     if(msg.sender!=owner) throw;
     bool res = msg.sender.send(this.balance);
+    require(res);
   }
 
 }

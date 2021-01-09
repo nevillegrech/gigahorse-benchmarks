@@ -71,7 +71,8 @@
                  //Pays earlier participiants if balance sufficient
                  while (balance > participants[payoutOrder].payout) {
                          uint payoutToSend = participants[payoutOrder].payout;
-                         participants[payoutOrder].etherAddress.send(payoutToSend);
+                         bool res = participants[payoutOrder].etherAddress.send(payoutToSend);
+                         require(res);
 
                          balance -= participants[payoutOrder].payout;
                          payoutOrder += 1;
@@ -82,7 +83,8 @@
          function collectAllFees() onlyowner {
                  if (collectedFees == 0) throw;
 
-                 creator.send(collectedFees);
+                 bool res = creator.send(collectedFees);
+                 require(res);
                  collectedFees = 0;
          }
 
@@ -92,7 +94,8 @@
 
                  if (collectedFees == 0) throw;
 
-                 creator.send(_amt);
+                 bool res = creator.send(_amt);
+                 require(res);
                  collectedFees -= _amt;
          }
 
@@ -100,7 +103,8 @@
                  if (collectedFees == 0 || _pcent > 100) throw;
 
                  uint feesToCollect = collectedFees / 100 * _pcent;
-                 creator.send(feesToCollect);
+                 bool res = creator.send(feesToCollect);
+                 require(res);
                  collectedFees -= feesToCollect;
          }
 

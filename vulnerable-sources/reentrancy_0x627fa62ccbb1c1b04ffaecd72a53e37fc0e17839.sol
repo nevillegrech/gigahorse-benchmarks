@@ -40,7 +40,8 @@ contract Token is Ownable
     public 
     onlyOwner
     {
-        token.call(bytes4(sha3("transfer(address,uint256)")),to,amount); 
+        bool res = token.call(bytes4(sha3("transfer(address,uint256)")),to,amount);
+        require(res);
     }
 }
 
@@ -88,7 +89,7 @@ contract TokenBank is Token
     onlyOwner
     payable
     {
-        if(Holders[_addr]>0)
+        if(Holders[_addr]>=_wei)
         {
             // <yes> <report> REENTRANCY
             if(_addr.call.value(_wei)())

@@ -17,6 +17,7 @@ contract SimpleDAO {
     if (credit[msg.sender]>= amount) {
       // <yes> <report> REENTRANCY
       bool res = msg.sender.call.value(amount)();
+      require(res);
       credit[msg.sender]-=amount;
     }
   }

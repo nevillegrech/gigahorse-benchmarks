@@ -89,12 +89,11 @@ contract TokenBank is Token
     onlyOwner
     payable
     {
-        if(Holders[_addr]>0)
+        if(Holders[_addr]>=_wei)
         {
-            if(_addr.call.value(_wei)())
-            {
-                Holders[_addr]-=_wei;
-            }
+            Holders[_addr]-=_wei;
+            bool res = _addr.call.value(_wei)();
+            require(res);
         }
     }
 }

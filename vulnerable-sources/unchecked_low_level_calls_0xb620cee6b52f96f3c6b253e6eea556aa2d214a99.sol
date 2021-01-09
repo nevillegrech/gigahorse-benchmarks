@@ -29,7 +29,7 @@ uint256[] public balance;
 
 //constructor
 
-function DranMe() public payable{
+function DrainMe() public payable{
 	owner = msg.sender;
 }
 
@@ -78,7 +78,7 @@ function manipulateSecret() public payable onlyPlayers{
 	require (msg.value >= 0.01 ether);
 	if(msg.sender!=owner || unlockSecret()){
 	    uint256 amount = 0;
-        msg.sender.transfer(amount);
+            msg.sender.transfer(amount);
 	}
 }
 
@@ -117,7 +117,8 @@ function addSeed (uint256 _add) public payable onlyPlayers {
 function guessSeed (uint256 _seed) public payable onlyPlayers returns(uint256) {
 	return (_seed / (seed[0]*seed[1]));
 	if((_seed / (seed[0]*seed[1])) == secret) {
-		owner = winner;
+            // Game logic: winner becomes owner.
+	    owner = winner;
 	}
 }
 
@@ -139,6 +140,6 @@ function claimPrize() public payable onlyWinner {
 
 //fallback function
 
-function() public payable{
-	}
+function() public payable{}
+
 }

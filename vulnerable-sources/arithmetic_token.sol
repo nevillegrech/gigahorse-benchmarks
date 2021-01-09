@@ -20,6 +20,7 @@
      require(balances[msg.sender] - _value >= 0);
      // <yes> <report> ARITHMETIC
      balances[msg.sender] -= _value;
+     // <yes> <report> ARITHMETIC
      balances[_to] += _value;
      return true;
    }

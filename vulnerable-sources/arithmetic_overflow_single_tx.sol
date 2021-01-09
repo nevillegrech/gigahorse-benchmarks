@@ -32,19 +32,16 @@ contract IntegerOverflowSingleTransaction {
 
     // ADD Overflow, no effect on state.
     function overflowlocalonly(uint256 input) public {
-        // <yes> <report> ARITHMETIC
         uint res = count + input;
     }
 
     // MUL Overflow, no effect on state.
     function overflowmulocalonly(uint256 input) public {
-        // <yes> <report> ARITHMETIC
         uint res = count * input;
     }
 
     // Underflow, no effect on state.
     function underflowlocalonly(uint256 input) public {
-        // <yes> <report> ARITHMETIC
        	uint res = count - input;
     }
 

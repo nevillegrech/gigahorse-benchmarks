@@ -400,7 +400,7 @@
         "origin": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
         "vulnerabilities": [
             {
-                "lines": [18, 24, 30, 36, 42, 48],
+                "lines": [18, 24, 30],
                 "category": "arithmetic"
             }
         ]
@@ -428,7 +428,7 @@
         "origin": "https://github.com/sigp/solidity-security-blog",
         "vulnerabilities": [
             {
-                "lines": [20, 22],
+                "lines": [20, 22, 24],
                 "category": "arithmetic"
             }
         ]

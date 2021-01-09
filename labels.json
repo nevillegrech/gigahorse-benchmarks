@@ -727,20 +727,6 @@
         ]
     },
     {
-        "id": "0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1",
-        "source-path": "vulnerable-sources/reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
-        "contract-name": "ACCURAL_DEPOSIT",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.hex",
-        "origin": "etherscan.io",
-        "vulnerabilities": [
-            {
-                "lines": [55],
-                "category": "reentrancy"
-            }
-        ]
-    },
-    {
         "id": "0x4e73b32ed6c35f570686b89848e5f39f20ecc106",
         "source-path": "vulnerable-sources/reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol",
         "contract-name": "PRIVATE_ETH_CELL",
@@ -811,20 +797,6 @@
         ]
     },
     {
-        "id": "0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3",
-        "source-path": "vulnerable-sources/reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol",
-        "contract-name": "Log",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.hex",
-        "origin": "etherscan.io",
-        "vulnerabilities": [
-            {
-                "lines": [29],
-                "category": "reentrancy"
-            }
-        ]
-    },
-    {
         "id": "0x8c7777c45481dba411450c228cb692ac3d550344",
         "source-path": "vulnerable-sources/reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.sol",
         "contract-name": "Log",
@@ -834,20 +806,6 @@
         "vulnerabilities": [
             {
                 "lines": [41],
-                "category": "reentrancy"
-            }
-        ]
-    },
-    {
-        "id": "0x93c32845fae42c83a70e5f06214c8433665c2ab5",
-        "source-path": "vulnerable-sources/reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
-        "contract-name": "Log",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.hex",
-        "origin": "etherscan.io",
-        "vulnerabilities": [
-            {
-                "lines": [29],
                 "category": "reentrancy"
             }
         ]
@@ -904,76 +862,6 @@
         "vulnerabilities": [
             {
                 "lines": [40],
-                "category": "reentrancy"
-            }
-        ]
-    },
-    {
-        "id": "0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e",
-        "source-path": "vulnerable-sources/reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol",
-        "contract-name": "Log",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.hex",
-        "origin": "etherscan.io",
-        "vulnerabilities": [
-            {
-                "lines": [38],
-                "category": "reentrancy"
-            }
-        ]
-    },
-    {
-        "id": "0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f",
-        "source-path": "vulnerable-sources/reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
-        "contract-name": "Log",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.hex",
-        "origin": "etherscan.io",
-        "vulnerabilities": [
-            {
-                "lines": [41],
-                "category": "reentrancy"
-            }
-        ]
-    },
-    {
-        "id": "0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888",
-        "source-path": "vulnerable-sources/reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
-        "contract-name": "MONEY_BOX",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.hex",
-        "origin": "etherscan.io",
-        "vulnerabilities": [
-            {
-                "lines": [63],
-                "category": "reentrancy"
-            }
-        ]
-    },
-    {
-        "id": "0xcead721ef5b11f1a7b530171aab69b16c5e66b6e",
-        "source-path": "vulnerable-sources/reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
-        "contract-name": "Log",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.hex",
-        "origin": "etherscan.io",
-        "vulnerabilities": [
-            {
-                "lines": [29],
-                "category": "reentrancy"
-            }
-        ]
-    },
-    {
-        "id": "0xf015c35649c82f5467c9c74b7f28ee67665aad68",
-        "source-path": "vulnerable-sources/reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol",
-        "contract-name": "Log",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.hex",
-        "origin": "etherscan.io",
-        "vulnerabilities": [
-            {
-                "lines": [29],
                 "category": "reentrancy"
             }
         ]

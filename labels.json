@@ -1091,20 +1091,6 @@
         ]
     },
     {
-        "id": "timed_crowdsale",
-        "source-path": "vulnerable-sources/time_manipulation_timed_crowdsale.sol",
-        "contract-name": "TimedCrowdsale",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/time_manipulation_timed_crowdsale.hex",
-        "origin": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/timestamp_dependence/timed_crowdsale.sol",
-        "vulnerabilities": [
-            {
-                "lines": [13],
-                "category": "time_manipulation"
-            }
-        ]
-    },
-    {
         "id": "0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e",
         "source-path": "vulnerable-sources/unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol",
         "contract-name": "PoCGame",

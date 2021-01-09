@@ -16,7 +16,7 @@ contract PrivateDeposit
     Log TransferLog;
     
     modifier onlyOwner() {
-        require(tx.origin == owner);
+        require(msg.sender == owner);
         _;
     }    
     

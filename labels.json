@@ -581,7 +581,7 @@
         "origin": "https://etherscan.io/address/0xf45717552f12ef7cb65e95476f217ea008167ae3#code",
         "vulnerabilities": [
             {
-                "lines": [46, 48],
+                "lines": [50, 52],
                 "category": "denial_of_service"
             }
         ]

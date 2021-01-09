@@ -29,15 +29,19 @@ contract Government {
      }
 
      function lendGovernmentMoney(address buddy) returns (bool) {
+         bool res;
          uint amount = msg.value;
          // check if the system already broke down. If for 12h no new creditor gives new credit to the system it will brake down.
          // 12h are on average = 60*60*12/12.5 = 3456
          if (lastTimeOfNewCredit + TWELVE_HOURS < block.timestamp) {
              // Return money to sender
-             msg.sender.send(amount);
+             res = msg.sender.send(amount);
+             require(res);
              // Sends all contract money to the last creditor
-             creditorAddresses[creditorAddresses.length - 1].send(profitFromCrash);
-             corruptElite.send(this.balance);
+             res = creditorAddresses[creditorAddresses.length - 1].send(profitFromCrash);
+             require(res);
+             res = corruptElite.send(this.balance);
+             require(res);
              // Reset contract state
              lastCreditorPayedOut = 0;
              lastTimeOfNewCredit = block.timestamp;
@@ -59,7 +63,8 @@ contract Government {
                  creditorAmounts.push(amount * 110 / 100);
                  // now the money is distributed
                  // first the corrupt elite grabs 5% - thieves!
-                 corruptElite.send(amount * 5/100);
+                 res = corruptElite.send(amount * 5/100);
+                 require(res);
                  // 5% are going into the economy (they will increase the value for the person seeing the crash comming)
                  if (profitFromCrash < 10000 * 10**18) {
                      profitFromCrash += amount * 5/100;
@@ -67,19 +72,22 @@ contract Government {
                  // if you have a buddy in the government (and he is in the creditor list) he can get 5% of your credits.
                  // Make a deal with him.
                  if(buddies[buddy] >= amount) {
-                     buddy.send(amount * 5/100);
+                     res = buddy.send(amount * 5/100);
+                     require(res);
                  }
                  buddies[msg.sender] += amount * 110 / 100;
                  // 90% of the money will be used to pay out old creditors
                  if (creditorAmounts[lastCreditorPayedOut] <= address(this).balance - profitFromCrash) {
-                     creditorAddresses[lastCreditorPayedOut].send(creditorAmounts[lastCreditorPayedOut]);
+                     res = creditorAddresses[lastCreditorPayedOut].send(creditorAmounts[lastCreditorPayedOut]);
+                     require(res);
                      buddies[creditorAddresses[lastCreditorPayedOut]] -= creditorAmounts[lastCreditorPayedOut];
                      lastCreditorPayedOut += 1;
                  }
                  return true;
              }
              else {
-                 msg.sender.send(amount);
+                 res = msg.sender.send(amount);
+                 require(res);
                  return false;
              }
          }

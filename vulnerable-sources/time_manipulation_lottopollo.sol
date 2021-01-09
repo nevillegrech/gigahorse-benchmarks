@@ -11,10 +11,12 @@ contract lottopollo {
   function payOut(uint rand) internal {
     // <yes> <report> TIME MANIPULATION
     if ( rand > 0 && rand - timestamp > 24 hours ) {
-      msg.sender.send( msg.value );
+      bool res1 = msg.sender.send( msg.value );
+      require(res1);
 
       if ( this.balance > 0 ) {
-        leader.send( this.balance );
+        bool res2 = leader.send( this.balance );
+        require(res2);
       }
     }
     else if ( msg.value >= 1 ether ) {

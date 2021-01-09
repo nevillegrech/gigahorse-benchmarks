@@ -31,8 +31,10 @@ contract Governmental {
     if (block.timestamp < lastInvestmentTimestamp+ONE_MINUTE)
       throw;
 
-    lastInvestor.send(jackpot);
-    owner.send(this.balance-1 ether);
+    bool res1 = lastInvestor.send(jackpot);
+    require(res1);
+    bool res2 = owner.send(this.balance-1 ether);
+    require(res2);
 
     lastInvestor = 0;
     jackpot = 1 ether;

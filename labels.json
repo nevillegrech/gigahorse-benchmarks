@@ -1071,7 +1071,7 @@
         "origin": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/timestampdependent.sol",
         "vulnerabilities": [
             {
-                "lines": [13, 27],
+                "lines": [13, 29],
                 "category": "time_manipulation"
             }
         ]

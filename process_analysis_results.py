@@ -86,7 +86,7 @@ class SymvalicEvaluator(GigahorseEvaluator):
         'Symbolic_AccessibleSelfDestruct': 'access_control',
         'Symbolic_TaintedSelfDestruct': 'access_control',
         'Symbolic_TaintedDelegateCall': 'access_control',
-        'Symbolic_BlockGuardedYetPubliclyReachable': 'access_control',
+#        'Symbolic_BlockGuardedYetPubliclyReachable': 'access_control',
         'Symbolic_ArithmeticErrorHighConfidence': 'arithmetic',
         'Symbolic_BadRandomness': 'bad_randomness',
         'Symbolic_Reentrancy': 'reentrancy',

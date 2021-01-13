@@ -421,7 +421,7 @@
     },
     {
         "id": "lottery",
-        "source-path": "vulnerable-sources/access_control_lottery.sol",
+        "source-path": "vulnerable-sources/denial_of_service_lottery.sol",
         "contract-name": "",
         "compiler-version": "",
         "bytecode-path": "vulnerable-bytecode/access_control_lottery.hex",
@@ -471,20 +471,6 @@
             {
                 "lines": [523, 560, 700, 702, 704, 706, 708, 710, 712, 714, 716, 718],
                 "category": "bad_randomness"
-            }
-        ]
-    },
-    {
-        "id": "auction",
-        "source-path": "vulnerable-sources/denial_of_service_auction.sol",
-        "contract-name": "DosAuction",
-        "compiler-version": "0.4.25",
-        "bytecode-path": "vulnerable-bytecode/denial_of_service_auction.hex",
-        "origin": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/denial_of_service/auction.sol",
-        "vulnerabilities": [
-            {
-                "lines": [23],
-                "category": "denial_of_service"
             }
         ]
     },

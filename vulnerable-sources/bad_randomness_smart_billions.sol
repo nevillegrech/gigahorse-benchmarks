@@ -672,6 +672,7 @@ contract SmartBillions is StandardToken {
     function addHashes(uint _sadd) public returns (uint) {
         require(hashFirst == 0 && _sadd > 0 && _sadd <= hashesSize);
         uint n = hashes.length;
+        require(n + _sadd >= n);
         if(n + _sadd > hashesSize){
             hashes.length = hashesSize;
         }

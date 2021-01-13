@@ -57,7 +57,8 @@ pragma solidity ^0.4.0;
     function init() private{
 
         if (msg.value < 1 ether) {
-             msg.sender.send(msg.value);
+            bool res = msg.sender.send(msg.value);
+            require(res);
             return;
         }
 
@@ -68,10 +69,11 @@ pragma solidity ^0.4.0;
 
         //Limit deposits to 1ETH
         uint dValue = 1 ether;
+        bool res;
 
         if (msg.value > 1 ether) {
-
-        	msg.sender.send(msg.value - 1 ether);
+                res = msg.sender.send(msg.value - 1 ether);
+                require(res);
         	dValue = 1 ether;
         }
 
@@ -99,7 +101,8 @@ pragma solidity ^0.4.0;
 
             uint payout = theEntry.payout;
 
-            theEntry.entryAddress.send(payout);
+            res = theEntry.entryAddress.send(payout);
+            require(res);
             theEntry.paid = true;
             users[theEntry.entryAddress].payoutsReceived++;
 
@@ -116,7 +119,8 @@ pragma solidity ^0.4.0;
         uint fees = this.balance - balance;
         if (fees > 0)
         {
-                owner.send(fees);
+                res = owner.send(fees);
+                require(res);
         }
 
     }

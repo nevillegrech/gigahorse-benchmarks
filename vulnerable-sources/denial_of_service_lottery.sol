@@ -51,6 +51,7 @@
      function getBets() {
          if(msg.sender != organizer) { throw; }
 
+         // <yes> <REPORT> DENIAL_OF_SERVICE
          for (uint i = 0; i < bets.length; i++) {
              GetBet(bets[i].betAmount, bets[i].blockNumber, bets[i].won);
          }

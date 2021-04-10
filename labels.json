@@ -424,11 +424,11 @@
         "source-path": "vulnerable-sources/denial_of_service_lottery.sol",
         "contract-name": "",
         "compiler-version": "",
-        "bytecode-path": "vulnerable-bytecode/access_control_lottery.hex",
+        "bytecode-path": "vulnerable-bytecode/denial_of_service_lottery.hex",
         "origin": "https://etherscan.io/address/0x80ddae5251047d6ceb29765f38fed1c0013004b7#code",
         "vulnerabilities": [
             {
-                "category": "access_control"
+                "category": "denial_of_service"
             }
         ]
     },

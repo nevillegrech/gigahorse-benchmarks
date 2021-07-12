@@ -13,7 +13,7 @@ map_of_rels = {
     'Symbolic_TaintedOwnershipGuard': 'access_control',
     'Symbolic_UnboundedIteration': 'denial_of_service',
     'Symbolic_UncheckedLowLevelCall': 'unchecked_low_level_calls',
-    'Symbolic_WalletGriefingLoose': 'denial_of_service'
+    'Symbolic_WalletGriefing': 'denial_of_service'
 }
 
 list_of_analytics = [

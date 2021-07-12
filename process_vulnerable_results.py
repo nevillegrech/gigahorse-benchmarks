@@ -101,7 +101,7 @@ class SymvalicEvaluator(GigahorseEvaluator):
         'Symbolic_TaintedOwnershipGuard': 'access_control',
         'Symbolic_UnboundedIteration': 'denial_of_service',
         'Symbolic_UncheckedLowLevelCall': 'unchecked_low_level_calls',
-        'Symbolic_WalletGriefingLoose': 'denial_of_service'
+        'Symbolic_WalletGriefing': 'denial_of_service'
     }
     supported_vulnerabilities = set(val for val in mappings.values())
 

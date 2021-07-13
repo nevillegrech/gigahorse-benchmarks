@@ -83,9 +83,9 @@ class GigahorseEvaluator(Evaluator):
             tps = len(true_positives[v])
             fps = len(false_positives[v])
             fns = len(all_vulns[v] - true_positives[v])
-            precision = round(100 * tps/float(tps+fps))
-            recall = round(100 * tps/float(len(all_vulns[v])))
-            print('{0:30}\t{1}\t{2}\t{3}\t{4}\t\t{5}'.format(v, tps, fps, fns, precision, recall))
+            precision = round(100 * tps/float(tps+fps), 2)
+            recall = round(100 * tps/float(len(all_vulns[v])), 2)
+            print('{0:30}\t{1}\t{2}\t{3}\t{4}%\t\t{5}%'.format(v, tps, fps, fns, precision, recall))
             #print(f"\033[1m{v}: \033[0mTPs: {tps}, FPs: {fps}, FNs: {fns}, Precision: {precision}%, Recall {recall}%")
 
 
